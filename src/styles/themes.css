@@ -1,0 +1,49 @@
+:root {
+  /* DED Guild color scheme - red, grey, black theme */
+  --guild-red: #DC2626;
+  --guild-dark-red: #B91C1C;
+  --guild-dark-red-2: #991B1B;
+  --guild-grey: #6B7280;
+  --guild-light-grey: #9CA3AF;
+  --guild-dark-grey: #374151;
+  --guild-black: #111827;
+  --guild-bg-dark: #0a0a0f;
+  --guild-bg-darker: #050508;
+  --guild-bg-card: rgba(31, 41, 55, 0.8);
+  --guild-text: #f8fafc;
+  --guild-text-dim: #cbd5e1;
+  --guild-accent: #ef4444;
+  --guild-orange: #F97316;
+  --guild-dark-orange: #EA580C;
+
+  /* Gradients */
+  --gradient-red: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+  --gradient-dark-red: linear-gradient(135deg, #B91C1C 0%, #991B1B 100%);
+  --gradient-grey: linear-gradient(135deg, #6B7280 0%, #374151 100%);
+  --gradient-orange: linear-gradient(135deg, #F97316 0%, #EA580C 100%);
+  --gradient-dark: linear-gradient(180deg, #0a0a0f 0%, #050508 100%);
+  --gradient-banner: linear-gradient(135deg, #0a0a0f 0%, rgba(220, 38, 38, 0.2) 50%, #0a0a0f 100%);
+
+  /* Legacy colors for backward compatibility */
+  --guild-purple: #DC2626;
+  --guild-dark-purple: #B91C1C;
+  --guild-gold: #F97316;
+  --guild-dark-gold: #EA580C;
+
+  --ffxiv-purple: #DC2626;
+  --ffxiv-dark-purple: #B91C1C;
+  --ffxiv-gold: #F97316;
+  --ffxiv-dark-gold: #EA580C;
+  --ffxiv-bg-dark: #0a0a0f;
+  --ffxiv-bg-darker: #050508;
+  --ffxiv-text: #f8fafc;
+  --ffxiv-text-dim: #cbd5e1;
+  --ffxiv-accent: #ef4444;
+}
+
+body {
+  background: var(--ffxiv-bg-dark);
+  color: var(--ffxiv-text);
+}
+
+

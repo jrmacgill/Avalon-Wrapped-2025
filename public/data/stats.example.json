@@ -1,0 +1,34 @@
+{
+  "summary": {
+    "totalMessages": 0,
+    "uniqueUsers": 0,
+    "totalChannels": 0,
+    "dateRange": {
+      "earliest": null,
+      "latest": null
+    }
+  },
+  "topUsers": [],
+  "topChannels": [],
+  "activity": {
+    "byHour": [],
+    "byDay": [],
+    "peakHour": 0,
+    "peakDay": 0
+  },
+  "topReactions": [],
+  "topWords": [],
+  "attachments": {
+    "total": 0,
+    "images": 0,
+    "videos": 0,
+    "other": 0
+  },
+  "ffxiv": {
+    "topJobs": [],
+    "topRaids": [],
+    "topContent": []
+  }
+}
+
+

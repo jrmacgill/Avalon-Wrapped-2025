@@ -1,0 +1,4337 @@
+{
+  "summary": {
+    "totalMessages": 193690,
+    "totalPuns": 347,
+    "punPercentage": "0.18",
+    "usersWithPuns": 46,
+    "generatedAt": "2025-12-29T19:27:07.615Z"
+  },
+  "leaderboard": [
+    {
+      "username": "cytoq",
+      "totalMessages": 32862,
+      "punCount": 61,
+      "punPercentage": "0.19",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (23 chars)"
+          ],
+          "content": "dont forget about elara",
+          "reactions": 0,
+          "timestamp": "2025-05-10T21:14:16.672-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (19 chars)"
+          ],
+          "content": "very common mistake",
+          "reactions": 0,
+          "timestamp": "2025-06-22T08:50:21.512-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (21 chars)"
+          ],
+          "content": "dont forget about FRU",
+          "reactions": 0,
+          "timestamp": "2025-10-08T14:34:03.51-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (23 chars)"
+          ],
+          "content": "dont forget about elara",
+          "reactions": 0,
+          "timestamp": "2025-05-10T21:14:16.672-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 9
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (19 chars)"
+          ],
+          "content": "very common mistake",
+          "reactions": 0,
+          "timestamp": "2025-06-22T08:50:21.512-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 10
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (21 chars)"
+          ],
+          "content": "dont forget about FRU",
+          "reactions": 0,
+          "timestamp": "2025-10-08T14:34:03.51-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 13
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (8 chars)"
+          ],
+          "content": "i forget",
+          "reactions": 0,
+          "timestamp": "2025-05-11T12:55:16.776-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 15
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (14 chars)"
+          ],
+          "content": "DONT FORGET!!!",
+          "reactions": 0,
+          "timestamp": "2025-10-24T11:53:29.097-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 19
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (28 chars)"
+          ],
+          "content": "god i forget what its called",
+          "reactions": 0,
+          "timestamp": "2025-08-06T12:08:21.307-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 22
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(slog|slogging)\\b",
+            "Concise delivery (26 chars)"
+          ],
+          "content": "crawling is such a slog gl",
+          "reactions": 0,
+          "timestamp": "2025-03-13T15:22:10.732-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 24
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (26 chars)"
+          ],
+          "content": "please thorn let me forget",
+          "reactions": 0,
+          "timestamp": "2025-04-27T06:45:32.115-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 28
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (26 chars)"
+          ],
+          "content": "never forget the baby cave",
+          "reactions": 0,
+          "timestamp": "2025-07-23T20:23:32.015-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 33
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (14 chars)"
+          ],
+          "content": "big mistake 🥀",
+          "reactions": 0,
+          "timestamp": "2025-11-06T22:02:56.111-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 38
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (23 chars)"
+          ],
+          "content": "dont forget arms length",
+          "reactions": 0,
+          "timestamp": "2025-11-22T08:38:20.95-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 40
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (22 chars)"
+          ],
+          "content": "can't forget my labubu",
+          "reactions": 0,
+          "timestamp": "2025-12-03T12:57:33.687-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 42
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (16 chars)"
+          ],
+          "content": "i see no mistake",
+          "reactions": 0,
+          "timestamp": "2025-12-13T16:48:34.93-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 43
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (26 chars)"
+          ],
+          "content": "if you didnt forget to bid",
+          "reactions": 0,
+          "timestamp": "2025-07-17T08:14:33.689-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 44
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (16 chars)"
+          ],
+          "content": "forget which one",
+          "reactions": 0,
+          "timestamp": "2025-04-15T21:14:11.348-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 47
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (12 chars)"
+          ],
+          "content": "never forget",
+          "reactions": 0,
+          "timestamp": "2025-05-10T09:33:44.21-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 50
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (11 chars)"
+          ],
+          "content": "big mistake",
+          "reactions": 0,
+          "timestamp": "2025-07-20T19:13:42.268-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 51
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (12 chars)"
+          ],
+          "content": "never forget",
+          "reactions": 0,
+          "timestamp": "2025-11-06T09:20:42.984-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 54
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (24 chars)"
+          ],
+          "content": "and ofc who could forget",
+          "reactions": 0,
+          "timestamp": "2025-11-02T12:44:21.096-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 59
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Contextual humor: \\b(get it|you know|right|eh|aye)\\b.*\\?*$"
+          ],
+          "content": "but i get it, its like youre relieved after mouser finishes so its easy to forget lol",
+          "reactions": 0,
+          "timestamp": "2025-02-23T13:24:29.823-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Contextual humor: \\b(get it|you know|right|eh|aye)\\b.*\\?*$"
+          ],
+          "content": "but i get it, its like youre relieved after mouser finishes so its easy to forget lol",
+          "reactions": 0,
+          "timestamp": "2025-02-23T13:24:29.823-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 8
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (50 chars)"
+          ],
+          "content": "and who could forget my favourite ffxiv characters",
+          "reactions": 0,
+          "timestamp": "2025-12-26T11:27:21.722-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 17
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (35 chars)"
+          ],
+          "content": "I will not forget your contribution",
+          "reactions": 0,
+          "timestamp": "2025-08-01T07:43:53.58-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 18
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (42 chars)"
+          ],
+          "content": "how about i just forget about that ability",
+          "reactions": 0,
+          "timestamp": "2025-04-24T07:17:16.983-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 27
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (35 chars)"
+          ],
+          "content": "i will not make this mistake again.",
+          "reactions": 0,
+          "timestamp": "2025-06-04T10:51:55.936-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 29
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "1 reactions"
+          ],
+          "content": "sometimes they break your heart but you just have to forgive and forget",
+          "reactions": 1,
+          "timestamp": "2025-07-03T09:26:54.201-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 31
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (35 chars)"
+          ],
+          "content": "i made the same fatal mistake again",
+          "reactions": 0,
+          "timestamp": "2025-09-18T10:06:48.327-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 37
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (35 chars)"
+          ],
+          "content": "jess dont forget us when youre rich",
+          "reactions": 0,
+          "timestamp": "2025-04-12T08:49:31.693-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 46
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (35 chars)"
+          ],
+          "content": "@Penny i have made a grave mistake.",
+          "reactions": 0,
+          "timestamp": "2025-04-16T22:54:01.314-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 48
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (41 chars)"
+          ],
+          "content": "cant forget about our goat Geru like that",
+          "reactions": 0,
+          "timestamp": "2025-07-31T08:06:23.707-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 52
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (39 chars)"
+          ],
+          "content": "like the timers in M5S id always forget",
+          "reactions": 0,
+          "timestamp": "2025-12-22T11:06:45.337-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 57
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "1 reactions"
+          ],
+          "content": "istg ppl just put fmbg in desc then forget about it",
+          "reactions": 1,
+          "timestamp": "2025-09-29T12:37:38.952-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 60
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "https://tenor.com/view/sparkle-on-its-wednesday-dont-forget-to-be-yourself-jerma-slay-gif-26287606",
+          "reactions": 0,
+          "timestamp": "2025-07-27T15:02:12.693-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "and once they get there, they forget the single thing they have to do",
+          "reactions": 0,
+          "timestamp": "2025-09-02T10:53:42.12-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "every time i make a raid wiping mistake after the 1st one, i give the poorest member 1mil",
+          "reactions": 0,
+          "timestamp": "2025-12-17T12:14:26.057-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "https://tenor.com/view/sparkle-on-its-wednesday-dont-forget-to-be-yourself-jerma-slay-gif-26287606",
+          "reactions": 0,
+          "timestamp": "2025-07-27T15:02:12.693-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 11
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "and once they get there, they forget the single thing they have to do",
+          "reactions": 0,
+          "timestamp": "2025-09-02T10:53:42.12-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 12
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "every time i make a raid wiping mistake after the 1st one, i give the poorest member 1mil",
+          "reactions": 0,
+          "timestamp": "2025-12-17T12:14:26.057-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 14
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "yeah i think i was nahida alhaitham yelan keqing? or kuki i forget",
+          "reactions": 0,
+          "timestamp": "2025-09-15T18:22:35.572-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 16
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "always have that mini heart attack when i forget yall use farenheit",
+          "reactions": 0,
+          "timestamp": "2025-06-25T13:46:09.03-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 20
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "splendid another character mistake as cloak and dagger",
+          "reactions": 0,
+          "timestamp": "2025-04-03T13:34:40.976-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 21
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "i made it into the southern/northern observatory (i forget) by flying my ship into it from underneath after 75% of the planet was disintigrated",
+          "reactions": 0,
+          "timestamp": "2025-11-27T13:54:57.665-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 23
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "you will forget about this by the time you sub again",
+          "reactions": 0,
+          "timestamp": "2025-04-15T19:18:49.641-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 25
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "cant even get through m5s without making 1 mistake its cooked already",
+          "reactions": 0,
+          "timestamp": "2025-04-16T07:54:44.372-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 26
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "where there was this idiot rich guy who brought a bunch of cactuses to his estate, i forget where",
+          "reactions": 0,
+          "timestamp": "2025-07-03T06:47:52.224-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 30
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "ok yeah when that happens i gotta reapply dot a little early, which is something i always forget",
+          "reactions": 0,
+          "timestamp": "2025-07-11T10:56:36.459-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 32
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "guys i think everyone should forget this information before next world maintenance",
+          "reactions": 0,
+          "timestamp": "2025-08-04T18:05:16.8-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 34
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/spelling-mistake-minor-spelling-mistake-meme-gif-23650588",
+          "reactions": 0,
+          "timestamp": "2025-09-10T08:45:38.392-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 35
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "theyre just also nocturnal so people mistake them for owls",
+          "reactions": 0,
+          "timestamp": "2025-09-10T09:14:33.104-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 36
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "me waking up at 10am to do fru just for a 99 dancer to forget p5 has mechanics",
+          "reactions": 0,
+          "timestamp": "2025-11-17T07:55:04.841-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 39
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "its such a stupid mistake that i thought it was like a pre-interview challenge",
+          "reactions": 0,
+          "timestamp": "2025-11-25T06:28:53.467-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 41
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "i wonder if it plans to forget how it entered in the first place",
+          "reactions": 0,
+          "timestamp": "2025-08-29T00:20:23.882-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 45
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "alright im just gonna forget about anything cruiserweight and just do it with the static 😭",
+          "reactions": 0,
+          "timestamp": "2025-04-27T10:11:49.008-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 49
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "yeah lol, unfortunately that doesnt explain their mistake LOL",
+          "reactions": 0,
+          "timestamp": "2025-10-25T08:59:05.155-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 53
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "wait the afk channel was literally my idea how did i forget",
+          "reactions": 0,
+          "timestamp": "2025-11-13T16:06:24.128-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 55
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "like if somehow im left with that choice from a mistake or something",
+          "reactions": 0,
+          "timestamp": "2025-12-10T10:45:11.073-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 56
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(slog|slogging)\\b"
+          ],
+          "content": "|| I completely get what you're saying about SB, it was definitely the weakest out of the 4 after ARR (i loved the Azim steppe too btw). I can understand your issue with the light and dark part of SHB but its expanded upon A LOT later!  Shadowbringers was a big character development arc for a lot of the characters which is why I personally loved it. Adding in the huge amount of lore with the ancients it really set up EW well imo. I get the MSQ can be a slog sometimes but theres really an amazing story there!! I recommend reading the lyrics to Answers (the ARR theme) before you get to EW ^^||",
+          "reactions": 0,
+          "timestamp": "2025-03-03T20:24:18.397-08:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 58
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "you still need to feint dont forget that i need that 3%",
+          "reactions": 0,
+          "timestamp": "2025-07-28T15:24:13.85-07:00",
+          "user": "cytoq",
+          "channel": "unknown",
+          "rank": 61
+        }
+      ]
+    },
+    {
+      "username": "queen.valhalla",
+      "totalMessages": 14456,
+      "punCount": 43,
+      "punPercentage": "0.30",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (30 chars)"
+          ],
+          "content": "Don’t forget maps tomorrow too",
+          "reactions": 0,
+          "timestamp": "2025-02-09T11:02:25.127-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Contextual humor: \\b(get it|you know|right|eh|aye)\\b.*\\?*$",
+            "Punchy message (42 chars)"
+          ],
+          "content": "You know let’s just forget I said anything",
+          "reactions": 0,
+          "timestamp": "2025-09-24T13:16:41.087-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 9
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (30 chars)"
+          ],
+          "content": "Don’t forget maps tomorrow too",
+          "reactions": 0,
+          "timestamp": "2025-02-09T11:02:25.127-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 11
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Contextual humor: \\b(get it|you know|right|eh|aye)\\b.*\\?*$",
+            "Punchy message (42 chars)"
+          ],
+          "content": "You know let’s just forget I said anything",
+          "reactions": 0,
+          "timestamp": "2025-09-24T13:16:41.087-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 18
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "16 reactions (social validation)"
+          ],
+          "content": ":DED: Don't forget to stop by Limsa to get a cute new minion for the sesonal event! :DED:",
+          "reactions": 16,
+          "timestamp": "2025-08-28T09:59:24.054-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 25
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "28 reactions (social validation)"
+          ],
+          "content": "@DEAD  :DEAD:  Happy Holidays and Happy Black Friday! React here :DED: to be entered into a giveaway, Win a Corgi Minion and more! Wheel tonight at 10 est or tomorrow if I forget :Thorn_Smile:",
+          "reactions": 28,
+          "timestamp": "2025-11-28T12:08:06.766-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 26
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "4 reactions (social validation)"
+          ],
+          "content": "Murry chrumis! 🎄Don’t forget to post a holiday/winter screenshot to be entered in to win 10 MILLION GIL!! (Via giveaway wheel) 💸 \n\nhttps://discord.com/channels/1248456136898641970/1445068660673613985",
+          "reactions": 4,
+          "timestamp": "2025-12-25T11:57:03.486-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 27
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (26 chars)"
+          ],
+          "content": "ty athena ill never forget",
+          "reactions": 0,
+          "timestamp": "2025-01-09T18:37:33.42-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 28
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (30 chars)"
+          ],
+          "content": "Ill never forget this betrayal",
+          "reactions": 0,
+          "timestamp": "2025-07-30T09:01:43.527-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 30
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (19 chars)"
+          ],
+          "content": "forget the gym dude",
+          "reactions": 0,
+          "timestamp": "2025-06-14T19:04:32.339-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 42
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "2 reactions"
+          ],
+          "content": "dont forget to let us know youll be there on sunday 😄 https://discord.com/channels/1248456136898641970/1276197230608519209/1379670468428169238",
+          "reactions": 2,
+          "timestamp": "2025-06-06T10:26:43.21-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (46 chars)"
+          ],
+          "content": "i forget did we clear ex2 last week with them?",
+          "reactions": 0,
+          "timestamp": "2025-02-22T16:43:09.268-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "1 reactions"
+          ],
+          "content": "Don’t forget Baby Boy’s 1st Extreme tonight!! \n\nhttps://discord.com/channels/1248456136898641970/1276197230608519209/1388375554687893604",
+          "reactions": 1,
+          "timestamp": "2025-07-02T06:50:21.838-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "2 reactions"
+          ],
+          "content": "Yeah I usually forget about unreal and panic do it on Monday 🙂",
+          "reactions": 2,
+          "timestamp": "2025-09-09T13:26:30.101-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 8
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (46 chars)"
+          ],
+          "content": "i forget did we clear ex2 last week with them?",
+          "reactions": 0,
+          "timestamp": "2025-02-22T16:43:09.268-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 13
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "1 reactions"
+          ],
+          "content": "Don’t forget Baby Boy’s 1st Extreme tonight!! \n\nhttps://discord.com/channels/1248456136898641970/1276197230608519209/1388375554687893604",
+          "reactions": 1,
+          "timestamp": "2025-07-02T06:50:21.838-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 15
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "2 reactions"
+          ],
+          "content": "Yeah I usually forget about unreal and panic do it on Monday 🙂",
+          "reactions": 2,
+          "timestamp": "2025-09-09T13:26:30.101-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 17
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "1 reactions"
+          ],
+          "content": "DONT FORGET TO POST A WINTER-Y OR HOLIDAY-Y SCREENSHOT BEFORE 12/26 TO ENTER FOR **10 MIL GIL**!! ( your screenshot=entry this is isnt a voting thing)",
+          "reactions": 1,
+          "timestamp": "2025-12-13T10:20:26.32-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 20
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (34 chars)"
+          ],
+          "content": "@Thorn dont forget about book club",
+          "reactions": 0,
+          "timestamp": "2025-06-12T14:23:26.758-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 21
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "1 reactions"
+          ],
+          "content": "Y’all know the thing that’s like “forget about touching grass I need to go in the sea” makes me think of @Frog when I see it",
+          "reactions": 1,
+          "timestamp": "2025-07-01T18:58:59.577-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 22
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (48 chars)"
+          ],
+          "content": "Don’t forget to react! Winner announced tonight!",
+          "reactions": 0,
+          "timestamp": "2025-02-14T06:22:30.668-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 24
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (38 chars)"
+          ],
+          "content": "LOl i just noticed my spelling mistake",
+          "reactions": 0,
+          "timestamp": "2025-06-22T19:23:22.974-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 29
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "1 reactions"
+          ],
+          "content": "https://tenor.com/view/superbad-that-was-like-eight-years-ago-asshole-people-dont-forget-gif-15568858",
+          "reactions": 1,
+          "timestamp": "2025-08-03T10:55:06.701-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 31
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "2 reactions"
+          ],
+          "content": "Don’t forget to react to the original post to be entered into the giveaway away!!! 8 pm est tonight! Look cool just like me 😄",
+          "reactions": 2,
+          "timestamp": "2025-08-06T07:30:31.386-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 32
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (32 chars)"
+          ],
+          "content": "dont forget to vote today ATHENA",
+          "reactions": 0,
+          "timestamp": "2025-06-19T11:57:52.057-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 36
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (48 chars)"
+          ],
+          "content": "dont forget to get your money back from the post",
+          "reactions": 0,
+          "timestamp": "2025-06-20T16:36:37.508-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 37
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "1 reactions"
+          ],
+          "content": "@Akua 🔪 dont forget to take your gil out next time you're on. tag one of us and we change your perms",
+          "reactions": 1,
+          "timestamp": "2025-07-17T19:28:49.847-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 38
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (33 chars)"
+          ],
+          "content": "id never forget about my children",
+          "reactions": 0,
+          "timestamp": "2025-07-18T08:27:23.817-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 39
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (50 chars)"
+          ],
+          "content": "also dont forget to return the gil to the chest 😄",
+          "reactions": 0,
+          "timestamp": "2025-07-18T08:39:00.504-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 40
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (50 chars)"
+          ],
+          "content": "i will i just always forget until monday night lol",
+          "reactions": 0,
+          "timestamp": "2025-11-10T15:41:17.343-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 41
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "dont forget! maps tonight at 8 est 😄 lets go get some gil",
+          "reactions": 0,
+          "timestamp": "2025-02-10T14:12:29.596-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "https://discord.com/channels/1248456136898641970/1249409046696693830/1359244023315038469 dont forget your glam for tonight! and make sure to get an invite from the chest :heartheart:",
+          "reactions": 0,
+          "timestamp": "2025-04-10T15:04:40.479-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Alliance raid tonight!! 😄 don’t forget to unlock it 😄 (idk how)",
+          "reactions": 0,
+          "timestamp": "2025-08-08T09:13:47.795-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "event starts at 7 est! dont forget to sign up :Lovereaper:",
+          "reactions": 0,
+          "timestamp": "2025-10-18T12:56:40.993-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 10
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "dont forget! maps tonight at 8 est 😄 lets go get some gil",
+          "reactions": 0,
+          "timestamp": "2025-02-10T14:12:29.596-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 12
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "https://discord.com/channels/1248456136898641970/1249409046696693830/1359244023315038469 dont forget your glam for tonight! and make sure to get an invite from the chest :heartheart:",
+          "reactions": 0,
+          "timestamp": "2025-04-10T15:04:40.479-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 14
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Alliance raid tonight!! 😄 don’t forget to unlock it 😄 (idk how)",
+          "reactions": 0,
+          "timestamp": "2025-08-08T09:13:47.795-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 16
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "event starts at 7 est! dont forget to sign up :Lovereaper:",
+          "reactions": 0,
+          "timestamp": "2025-10-18T12:56:40.993-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 19
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "I think that’s why I like it. Learn the rules never make a mistake. Ezpz",
+          "reactions": 0,
+          "timestamp": "2025-10-27T07:42:18.51-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 23
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "Thank you for pointing out my mistake in a kind way crowned. So nice",
+          "reactions": 0,
+          "timestamp": "2025-11-13T14:10:18.668-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 33
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "also thorn dont forget to take some of the coke to sell",
+          "reactions": 0,
+          "timestamp": "2025-02-28T09:15:16.072-08:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 34
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(chest|chesty)\\b.*\\b(off|get)\\b"
+          ],
+          "content": "okie! perms are set when you can please vote. If you do not have the funds, the fc will front you from the chest (to be returned after voting is done). to help spread the fc money, if you have funds please take the difference of 19 mil but so youll be left with at least 1 mil. If you have the funds and you win we will give you the money back. whomever wins will get a bonus 5 mil cause we love yall. Once you vote please place your number in here https://discord.com/channels/1248456136898641970/1357446698892263720",
+          "reactions": 0,
+          "timestamp": "2025-06-15T17:39:57.528-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 35
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "i always forget about the island. i got to level 20 and never went back",
+          "reactions": 0,
+          "timestamp": "2025-06-28T16:16:52.398-07:00",
+          "user": "queen.valhalla",
+          "channel": "unknown",
+          "rank": 43
+        }
+      ]
+    },
+    {
+      "username": "thornn.",
+      "totalMessages": 26454,
+      "punCount": 29,
+      "punPercentage": "0.11",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (29 chars)"
+          ],
+          "content": "Tonight! Dont forget to study",
+          "reactions": 0,
+          "timestamp": "2025-05-08T05:50:34.979-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (29 chars)"
+          ],
+          "content": "Always remember, never forget",
+          "reactions": 0,
+          "timestamp": "2025-09-06T22:13:49.98-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (9 chars)"
+          ],
+          "content": "Forget it",
+          "reactions": 0,
+          "timestamp": "2025-09-28T09:11:26.219-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (29 chars)"
+          ],
+          "content": "Tonight! Dont forget to study",
+          "reactions": 0,
+          "timestamp": "2025-05-08T05:50:34.979-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (29 chars)"
+          ],
+          "content": "Always remember, never forget",
+          "reactions": 0,
+          "timestamp": "2025-09-06T22:13:49.98-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 9
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (9 chars)"
+          ],
+          "content": "Forget it",
+          "reactions": 0,
+          "timestamp": "2025-09-28T09:11:26.219-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 10
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (26 chars)"
+          ],
+          "content": "(Dont forget to unlock it)",
+          "reactions": 0,
+          "timestamp": "2025-08-06T06:03:50.079-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 14
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (11 chars)"
+          ],
+          "content": "DONT FORGET",
+          "reactions": 0,
+          "timestamp": "2025-03-25T04:27:19.776-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 15
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (12 chars)"
+          ],
+          "content": "never forget",
+          "reactions": 0,
+          "timestamp": "2025-07-02T06:05:50.199-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 17
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "3 reactions (social validation)"
+          ],
+          "content": "I forget when you just shotgun it in a channel like an ape",
+          "reactions": 3,
+          "timestamp": "2025-09-10T08:53:13.313-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 19
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (27 chars)"
+          ],
+          "content": "I made such a mistake today",
+          "reactions": 0,
+          "timestamp": "2025-10-17T13:24:17.497-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 20
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (17 chars)"
+          ],
+          "content": "a fucking mistake",
+          "reactions": 0,
+          "timestamp": "2025-12-13T16:48:29.27-08:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 21
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (12 chars)"
+          ],
+          "content": "never forget",
+          "reactions": 0,
+          "timestamp": "2025-06-04T15:38:59.323-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 25
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (15 chars)"
+          ],
+          "content": "fucking mistake",
+          "reactions": 0,
+          "timestamp": "2025-04-29T07:24:07.167-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 27
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (36 chars)"
+          ],
+          "content": "I am not a fake and I did no forget!",
+          "reactions": 0,
+          "timestamp": "2025-12-26T15:44:07.05-08:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (36 chars)"
+          ],
+          "content": "I am not a fake and I did no forget!",
+          "reactions": 0,
+          "timestamp": "2025-12-26T15:44:07.05-08:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 12
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (36 chars)"
+          ],
+          "content": "dont let me forget to vote on my alt",
+          "reactions": 0,
+          "timestamp": "2025-07-04T17:21:50.958-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 23
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "It’s easy to forget about since it’s a thread tho so maybe we’ll make it a channel?",
+          "reactions": 0,
+          "timestamp": "2025-07-24T03:31:35.027-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "also Im going to make it reoccuring for us on every Friday to prog, just cause Im lazy and Ill forget",
+          "reactions": 0,
+          "timestamp": "2025-10-02T07:01:33.107-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "It’s easy to forget about since it’s a thread tho so maybe we’ll make it a channel?",
+          "reactions": 0,
+          "timestamp": "2025-07-24T03:31:35.027-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 8
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "also Im going to make it reoccuring for us on every Friday to prog, just cause Im lazy and Ill forget",
+          "reactions": 0,
+          "timestamp": "2025-10-02T07:01:33.107-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 11
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Event ends this Monday don’t forget to get your emote",
+          "reactions": 0,
+          "timestamp": "2025-02-10T19:05:01.838-08:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 13
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "As soon as I put them on I was like this doc made a mistake",
+          "reactions": 0,
+          "timestamp": "2025-05-20T20:25:48.047-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 16
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Forget I had my entire closet of clothes that needs to be put away",
+          "reactions": 0,
+          "timestamp": "2025-07-19T21:51:48.926-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 18
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "@Athena Union Leader (Mitch)  dont forget to vote on the house",
+          "reactions": 0,
+          "timestamp": "2025-04-06T08:54:18.079-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 22
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(chest|chesty)\\b.*\\b(off|get)\\b"
+          ],
+          "content": "@house helper (good)  make sure to return the funds to the FC chest when you get a chance please if it was lent to you",
+          "reactions": 0,
+          "timestamp": "2025-07-19T10:09:02.603-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 24
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "https://tenor.com/view/never-forget-september11-gif-12496083",
+          "reactions": 0,
+          "timestamp": "2025-12-18T14:49:10.194-08:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 26
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "also dont forget to have your nuts maxed! its 2k for the tome ring upgrades and 3k for the armor pieces",
+          "reactions": 0,
+          "timestamp": "2025-08-01T08:48:00.523-07:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 28
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "dont forget with the patch coming up we have #deleted-channel  for crafting requests, advice and updates",
+          "reactions": 0,
+          "timestamp": "2025-11-04T07:32:22.801-08:00",
+          "user": "thornn.",
+          "channel": "unknown",
+          "rank": 29
+        }
+      ]
+    },
+    {
+      "username": "snowy0814",
+      "totalMessages": 3506,
+      "punCount": 29,
+      "punPercentage": "0.83",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 8,
+          "indicators": [
+            "Direct pun reference: \"pun\"",
+            "Direct pun reference: \"puns\"",
+            "Wordplay detected: \\b(teemo|teemoing)\\b",
+            "Punchy message (31 chars)"
+          ],
+          "content": "I'm always teemo-ing with puns.",
+          "reactions": 0,
+          "timestamp": "2025-09-06T14:58:31.154-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 24
+        },
+        {
+          "isPun": true,
+          "score": 8,
+          "indicators": [
+            "Direct pun reference: \"pun\"",
+            "Direct pun reference: \"puns\"",
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (36 chars)"
+          ],
+          "content": "Puns like these are never a misteak.",
+          "reactions": 0,
+          "timestamp": "2025-05-05T14:16:51.005-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 27
+        },
+        {
+          "isPun": true,
+          "score": 7,
+          "indicators": [
+            "Direct pun reference: \"pun\"",
+            "Wordplay detected: \\b(whale|whaling)\\b.*\\b(pun|made)\\b",
+            "Concise delivery (24 chars)"
+          ],
+          "content": "That's a whale made pun.",
+          "reactions": 0,
+          "timestamp": "2025-12-24T11:33:47.85-08:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 26
+        },
+        {
+          "isPun": true,
+          "score": 6,
+          "indicators": [
+            "Wordplay detected: \\b(grave.*issue|issue.*grave)\\b",
+            "Concise delivery (22 chars)",
+            "2 reactions"
+          ],
+          "content": "This is a grave issue.",
+          "reactions": 2,
+          "timestamp": "2025-05-22T07:39:55.041-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 22
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (30 chars)"
+          ],
+          "content": "Don't forget your two minutes.",
+          "reactions": 0,
+          "timestamp": "2025-05-16T14:29:19.804-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(that's my line|my line)\\b",
+            "Concise delivery (15 chars)"
+          ],
+          "content": "That's my line.",
+          "reactions": 0,
+          "timestamp": "2025-06-11T12:23:41.504-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(praise hammer|hammer praise)\\b",
+            "Concise delivery (15 chars)"
+          ],
+          "content": "*Praise hammer*",
+          "reactions": 0,
+          "timestamp": "2025-06-17T10:47:41.079-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(wingin|winging)\\b",
+            "Concise delivery (11 chars)"
+          ],
+          "content": "Wingin' it.",
+          "reactions": 0,
+          "timestamp": "2025-06-18T16:52:28.059-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(titan memes|memes titan)\\b",
+            "Concise delivery (26 chars)"
+          ],
+          "content": "|| Incoming Titan memes ||",
+          "reactions": 0,
+          "timestamp": "2025-06-22T08:47:35.28-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 8
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (30 chars)"
+          ],
+          "content": "Don't forget your two minutes.",
+          "reactions": 0,
+          "timestamp": "2025-05-16T14:29:19.804-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 10
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(that's my line|my line)\\b",
+            "Concise delivery (15 chars)"
+          ],
+          "content": "That's my line.",
+          "reactions": 0,
+          "timestamp": "2025-06-11T12:23:41.504-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 12
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(praise hammer|hammer praise)\\b",
+            "Concise delivery (15 chars)"
+          ],
+          "content": "*Praise hammer*",
+          "reactions": 0,
+          "timestamp": "2025-06-17T10:47:41.079-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 13
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(wingin|winging)\\b",
+            "Concise delivery (11 chars)"
+          ],
+          "content": "Wingin' it.",
+          "reactions": 0,
+          "timestamp": "2025-06-18T16:52:28.059-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 14
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(titan memes|memes titan)\\b",
+            "Concise delivery (26 chars)"
+          ],
+          "content": "|| Incoming Titan memes ||",
+          "reactions": 0,
+          "timestamp": "2025-06-22T08:47:35.28-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 15
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(yantastic|yanth)\\b",
+            "Concise delivery (10 chars)"
+          ],
+          "content": "Yantastic.",
+          "reactions": 0,
+          "timestamp": "2025-05-24T09:39:37.15-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 17
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (15 chars)"
+          ],
+          "content": "It's a mistake.",
+          "reactions": 0,
+          "timestamp": "2025-12-03T17:31:34.399-08:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 18
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(yantastic|yanth)\\b",
+            "Concise delivery (15 chars)"
+          ],
+          "content": "It's yantastic.",
+          "reactions": 0,
+          "timestamp": "2025-12-20T21:43:42.912-08:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 25
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (26 chars)"
+          ],
+          "content": "It's me, I int by mistake.",
+          "reactions": 0,
+          "timestamp": "2025-12-01T08:35:50.602-08:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 29
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(slog|slogging)\\b",
+            "1 reactions"
+          ],
+          "content": "It is a SLOG to do that achievement, let me tell you.",
+          "reactions": 1,
+          "timestamp": "2025-07-07T13:56:43.457-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(yantastic|yanth)\\b",
+            "Punchy message (48 chars)"
+          ],
+          "content": "I'm sure it'll be a yantastic time for everyone.",
+          "reactions": 0,
+          "timestamp": "2025-06-08T08:08:30.722-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(yantastic|yanth)\\b",
+            "Punchy message (48 chars)"
+          ],
+          "content": "I'm sure it'll be a yantastic time for everyone.",
+          "reactions": 0,
+          "timestamp": "2025-06-08T08:08:30.722-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 11
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (49 chars)"
+          ],
+          "content": "I might have made a mistake, but it was worth it.",
+          "reactions": 0,
+          "timestamp": "2025-11-19T16:22:53.166-08:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 20
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(blu|blue)\\b.*\\b(feeling|gonna|group)\\b",
+            "Punchy message (50 chars)"
+          ],
+          "content": "Damnit, I wish I could join the BLU group tonight.",
+          "reactions": 0,
+          "timestamp": "2025-05-12T14:33:25.587-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 21
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (45 chars)"
+          ],
+          "content": "It's a mistake even when it isn't a meltdown.",
+          "reactions": 0,
+          "timestamp": "2025-08-21T15:09:08.721-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 23
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (37 chars)"
+          ],
+          "content": "It's so you don't frog-et about them.",
+          "reactions": 0,
+          "timestamp": "2025-05-07T15:52:59.48-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 28
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "You'll spend nine minutes in act 2 and make one mistake and die.",
+          "reactions": 0,
+          "timestamp": "2025-07-07T13:57:03.976-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(slog|slogging)\\b"
+          ],
+          "content": "Potd can feel like a slog if you do it all in one session.",
+          "reactions": 0,
+          "timestamp": "2025-09-18T07:23:54.783-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 9
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(slog|slogging)\\b"
+          ],
+          "content": "Potd can feel like a slog if you do it all in one session.",
+          "reactions": 0,
+          "timestamp": "2025-09-18T07:23:54.783-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 16
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "You guys make me want to actually try it. But it sounds like a mistake.",
+          "reactions": 0,
+          "timestamp": "2025-07-20T16:47:36.589-07:00",
+          "user": "snowy0814",
+          "channel": "unknown",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "username": "sammichmakr",
+      "totalMessages": 13118,
+      "punCount": 18,
+      "punPercentage": "0.14",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (22 chars)"
+          ],
+          "content": "Cant forget to walk it",
+          "reactions": 0,
+          "timestamp": "2025-02-25T08:34:56.458-08:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (12 chars)"
+          ],
+          "content": "i forget tho",
+          "reactions": 0,
+          "timestamp": "2025-05-01T09:02:31.527-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (29 chars)"
+          ],
+          "content": "oh i always forget about from",
+          "reactions": 0,
+          "timestamp": "2025-05-01T09:07:29.005-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (22 chars)"
+          ],
+          "content": "Cant forget to walk it",
+          "reactions": 0,
+          "timestamp": "2025-02-25T08:34:56.458-08:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (12 chars)"
+          ],
+          "content": "i forget tho",
+          "reactions": 0,
+          "timestamp": "2025-05-01T09:02:31.527-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (29 chars)"
+          ],
+          "content": "oh i always forget about from",
+          "reactions": 0,
+          "timestamp": "2025-05-01T09:07:29.005-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (25 chars)"
+          ],
+          "content": "just dont forget the roux",
+          "reactions": 0,
+          "timestamp": "2025-06-10T13:00:25.306-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 10
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (12 chars)"
+          ],
+          "content": "never forget",
+          "reactions": 0,
+          "timestamp": "2025-06-15T11:42:49.382-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 11
+        },
+        {
+          "isPun": true,
+          "score": 4.5,
+          "indicators": [
+            "Wordplay detected: \\b(chest|chesty)\\b.*\\b(off|get)\\b",
+            "Contextual humor: \\b(get it|you know|right|eh|aye)\\b.*\\?*$",
+            "1 humor emoji"
+          ],
+          "content": "Just take 7.5m outta fc chest and get it. I’ll replenish from my coffers 😂",
+          "reactions": 0,
+          "timestamp": "2025-07-22T14:20:04.677-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 17
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (49 chars)"
+          ],
+          "content": "oh yeah. i forget about fire stuff being an issue",
+          "reactions": 0,
+          "timestamp": "2025-10-27T07:27:12.346-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (42 chars)"
+          ],
+          "content": "also i only made one mistake at uwu sunday",
+          "reactions": 0,
+          "timestamp": "2025-11-04T11:22:10.517-08:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 14
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (31 chars)"
+          ],
+          "content": "also dont forget allied society",
+          "reactions": 0,
+          "timestamp": "2025-09-02T08:32:39.144-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 18
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Bet. I’ll message you later. If I forget, hmu tomorrow",
+          "reactions": 0,
+          "timestamp": "2025-04-25T11:33:48.665-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 8
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/minor-spelling-mistake-ffxiv-final-fantasy-xiv-final-fantasy-14-ff14-gif-10167608605026655705",
+          "reactions": 0,
+          "timestamp": "2025-04-25T05:40:45.349-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 9
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "lets never forget the full deck weave from your early days too",
+          "reactions": 0,
+          "timestamp": "2025-07-14T08:50:21.624-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 12
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Just like I sometimes (often) forget about tank stance, sometimes kardia is forgotten here and there.",
+          "reactions": 0,
+          "timestamp": "2025-08-07T04:38:37.829-07:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 13
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "can you make an event to remind us when it goes on sale (: its a monthout. ill forget",
+          "reactions": 0,
+          "timestamp": "2025-11-11T06:39:29.397-08:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 15
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "i sometimes forget a mit, but we don't die from it so it's fine",
+          "reactions": 0,
+          "timestamp": "2025-11-17T12:04:14.988-08:00",
+          "user": "sammichmakr",
+          "channel": "unknown",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "username": "satsuma9779",
+      "totalMessages": 10866,
+      "punCount": 14,
+      "punPercentage": "0.13",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(slog|slogging)\\b",
+            "Concise delivery (28 chars)"
+          ],
+          "content": "Incursio, Slog, Midbeast etc",
+          "reactions": 0,
+          "timestamp": "2025-02-19T16:31:46.977-08:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (29 chars)"
+          ],
+          "content": "But if you make 1 mistake top",
+          "reactions": 0,
+          "timestamp": "2025-07-16T08:50:30.194-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (15 chars)"
+          ],
+          "content": "I always forget",
+          "reactions": 0,
+          "timestamp": "2025-07-08T18:10:03.127-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 8
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (25 chars)"
+          ],
+          "content": "Dont forget self loathing",
+          "reactions": 0,
+          "timestamp": "2025-10-16T17:38:14.403-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 9
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (12 chars)"
+          ],
+          "content": "Never forget",
+          "reactions": 0,
+          "timestamp": "2025-04-08T08:13:55.718-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 10
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (11 chars)"
+          ],
+          "content": "Big mistake",
+          "reactions": 0,
+          "timestamp": "2025-04-11T10:19:40.95-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 11
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (27 chars)"
+          ],
+          "content": "Cant let you guys forget it",
+          "reactions": 0,
+          "timestamp": "2025-04-24T07:35:24.012-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 12
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (14 chars)"
+          ],
+          "content": "Dont forget me",
+          "reactions": 0,
+          "timestamp": "2025-06-02T08:22:39.411-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 14
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (37 chars)"
+          ],
+          "content": "you are rude and I will not forget it",
+          "reactions": 0,
+          "timestamp": "2025-03-17T07:08:03.105-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (33 chars)"
+          ],
+          "content": "Dont forget the Vayne skin is $50",
+          "reactions": 0,
+          "timestamp": "2025-05-27T18:21:06.338-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (37 chars)"
+          ],
+          "content": "NEVER FORGET THE HOLD I HAVE OVER YOU",
+          "reactions": 0,
+          "timestamp": "2025-05-13T08:03:36.927-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 13
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Plus we cant ever forget some of his later plays at LCS and international stage",
+          "reactions": 0,
+          "timestamp": "2025-09-03T08:06:43.797-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Plus never forget that the one time NA might have ever done ANYTHING on the international stage",
+          "reactions": 0,
+          "timestamp": "2025-09-03T08:08:01.909-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Dont forget when Spica hit a 9 man sleep on Lillia and he just sat there watching either",
+          "reactions": 0,
+          "timestamp": "2025-09-03T08:08:41.557-07:00",
+          "user": "satsuma9779",
+          "channel": "unknown",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "username": "jiayun",
+      "totalMessages": 8552,
+      "punCount": 13,
+      "punPercentage": "0.15",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (15 chars)"
+          ],
+          "content": "4 or 3 I forget",
+          "reactions": 0,
+          "timestamp": "2025-11-23T09:03:04.449-08:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 10
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(wingin|winging)\\b",
+            "Punchy message (33 chars)"
+          ],
+          "content": "For melee I’m honestly winging it",
+          "reactions": 0,
+          "timestamp": "2025-04-02T08:51:19.37-07:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(wingin|winging)\\b",
+            "Punchy message (33 chars)"
+          ],
+          "content": "For melee I’m honestly winging it",
+          "reactions": 0,
+          "timestamp": "2025-04-02T08:51:19.37-07:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (44 chars)"
+          ],
+          "content": "So I forget the original language was telegu",
+          "reactions": 0,
+          "timestamp": "2025-11-09T07:17:51.533-08:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (50 chars)"
+          ],
+          "content": "I initially made the same mistake for my viper lol",
+          "reactions": 0,
+          "timestamp": "2025-04-11T09:06:36.452-07:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (39 chars)"
+          ],
+          "content": "P5 and P6 basically is 1 mistake = wipe",
+          "reactions": 0,
+          "timestamp": "2025-04-16T07:54:20.773-07:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "1 reactions"
+          ],
+          "content": "A classic mistake. You’ll remember this for the rest of your life",
+          "reactions": 1,
+          "timestamp": "2025-05-25T16:32:19.677-07:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 8
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (34 chars)"
+          ],
+          "content": "Forget PvP, clear the tier instead",
+          "reactions": 0,
+          "timestamp": "2025-07-22T09:02:23.788-07:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 9
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(slog|slogging)\\b",
+            "Punchy message (40 chars)"
+          ],
+          "content": "Now gathering won’t be as much of a slog",
+          "reactions": 0,
+          "timestamp": "2025-06-20T08:49:50.655-07:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 11
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (36 chars)"
+          ],
+          "content": "Not a single mistake in Pf in MONTHS",
+          "reactions": 0,
+          "timestamp": "2025-09-29T12:39:13.874-07:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 12
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "You have blessed us with an author. We will not forget it :Prayge:",
+          "reactions": 0,
+          "timestamp": "2025-03-17T07:08:38.482-07:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/minor-spelling-mistake-gif-21179057",
+          "reactions": 0,
+          "timestamp": "2025-04-25T11:54:34.794-07:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "@Chieves(CTE parser) there’s also the companion app subscription which is 1 retainer, another favorite teleport slot, and I think the second saddlebag. I forget if the saddlebag is a part of that service",
+          "reactions": 0,
+          "timestamp": "2025-12-17T06:06:01.829-08:00",
+          "user": "jiayun",
+          "channel": "unknown",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "username": "mookiemonster",
+      "totalMessages": 3827,
+      "punCount": 11,
+      "punPercentage": "0.29",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (23 chars)"
+          ],
+          "content": "don't forget about meee",
+          "reactions": 0,
+          "timestamp": "2025-04-08T11:15:05.923-07:00",
+          "user": "mookiemonster",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (29 chars)"
+          ],
+          "content": "Don't forget to fix your mics",
+          "reactions": 0,
+          "timestamp": "2025-10-30T21:22:28.985-07:00",
+          "user": "mookiemonster",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (23 chars)"
+          ],
+          "content": "don't forget about meee",
+          "reactions": 0,
+          "timestamp": "2025-04-08T11:15:05.923-07:00",
+          "user": "mookiemonster",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (29 chars)"
+          ],
+          "content": "Don't forget to fix your mics",
+          "reactions": 0,
+          "timestamp": "2025-10-30T21:22:28.985-07:00",
+          "user": "mookiemonster",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (17 chars)"
+          ],
+          "content": "can't forget ATLA",
+          "reactions": 0,
+          "timestamp": "2025-10-03T12:08:28.144-07:00",
+          "user": "mookiemonster",
+          "channel": "unknown",
+          "rank": 11
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (40 chars)"
+          ],
+          "content": "@Val Reina don't forget your melding!!!!",
+          "reactions": 0,
+          "timestamp": "2025-08-28T14:02:07.143-07:00",
+          "user": "mookiemonster",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (40 chars)"
+          ],
+          "content": "@Val Reina don't forget your melding!!!!",
+          "reactions": 0,
+          "timestamp": "2025-08-28T14:02:07.143-07:00",
+          "user": "mookiemonster",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(slog|slogging)\\b",
+            "1 reactions"
+          ],
+          "content": "if you want a battle buddy to just go through the slog with you, happy to be a buddy!",
+          "reactions": 1,
+          "timestamp": "2025-07-22T09:11:12.708-07:00",
+          "user": "mookiemonster",
+          "channel": "unknown",
+          "rank": 10
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Don't forget to grab your shiny ruins pokemon to from the mystery gift",
+          "reactions": 0,
+          "timestamp": "2025-09-12T07:41:12.099-07:00",
+          "user": "mookiemonster",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(slog|slogging)\\b"
+          ],
+          "content": "Not yet, but I'll bounce between data centers for him uwu\n\nHolding his hand through the slog of ARR",
+          "reactions": 0,
+          "timestamp": "2025-07-10T08:49:17.495-07:00",
+          "user": "mookiemonster",
+          "channel": "unknown",
+          "rank": 8
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "don't forget to flip yourselves for an even roasting",
+          "reactions": 0,
+          "timestamp": "2025-07-28T14:52:11.116-07:00",
+          "user": "mookiemonster",
+          "channel": "unknown",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "username": "azelya",
+      "totalMessages": 4994,
+      "punCount": 11,
+      "punPercentage": "0.22",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (15 chars)"
+          ],
+          "content": "I always forget",
+          "reactions": 0,
+          "timestamp": "2025-11-05T20:55:12.82-08:00",
+          "user": "azelya",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (40 chars)"
+          ],
+          "content": "I always forget your alt isn't in the FC",
+          "reactions": 0,
+          "timestamp": "2025-05-31T16:04:20.849-07:00",
+          "user": "azelya",
+          "channel": "unknown",
+          "rank": 8
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "I think it's the fact it takes 34634 years, and one mistake = start over",
+          "reactions": 0,
+          "timestamp": "2025-07-07T14:02:27.253-07:00",
+          "user": "azelya",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/i-must-be-slipping-in-my-old-age-forgot-mistake-getting-old-im-old-gif-16886805",
+          "reactions": 0,
+          "timestamp": "2025-07-21T11:15:36.081-07:00",
+          "user": "azelya",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/i-must-be-slipping-in-my-old-age-forgot-mistake-getting-old-im-old-gif-16886805",
+          "reactions": 0,
+          "timestamp": "2025-07-21T11:15:36.081-07:00",
+          "user": "azelya",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Also I forget if I linked it here... or directly to Thorn awhile ago, but, the most useful 2 mods imo for glam related things",
+          "reactions": 0,
+          "timestamp": "2025-08-01T09:11:24.785-07:00",
+          "user": "azelya",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Jess was my first EB proposal, but got shot down in a brutal manner, never forget",
+          "reactions": 0,
+          "timestamp": "2025-06-19T12:35:53.552-07:00",
+          "user": "azelya",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "https://tenor.com/view/i-will-remember-this-cipher-charlize-theron-fast-x-i-won%27t-forget-this-gif-6891970452528799329",
+          "reactions": 0,
+          "timestamp": "2025-10-31T18:56:06.682-07:00",
+          "user": "azelya",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/didnt-sign-up-for-this-this-isnt-what-i-wanted-not-going-to-plan-this-is-a-mistake-ben-aldridge-gif-18130870",
+          "reactions": 0,
+          "timestamp": "2025-07-28T11:30:17.778-07:00",
+          "user": "azelya",
+          "channel": "unknown",
+          "rank": 9
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "When you forget you have a crime installed and a npc uses the triggering emote in a cutscene...",
+          "reactions": 0,
+          "timestamp": "2025-09-22T12:12:21.685-07:00",
+          "user": "azelya",
+          "channel": "unknown",
+          "rank": 10
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "||Now we come to orange\nGotta rhyme something with orange\n'Cept that nothing rhymes with orange\nThink that I'll just forget 'bout orange, so||",
+          "reactions": 0,
+          "timestamp": "2025-07-17T10:53:05.833-07:00",
+          "user": "azelya",
+          "channel": "unknown",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "username": "spicychickennugges",
+      "totalMessages": 2048,
+      "punCount": 10,
+      "punPercentage": "0.49",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (26 chars)"
+          ],
+          "content": "And I never make a mistake",
+          "reactions": 0,
+          "timestamp": "2025-05-24T11:04:00.375-07:00",
+          "user": "spicychickennugges",
+          "channel": "unknown",
+          "rank": 9
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(chest|chesty)\\b.*\\b(off|get)\\b",
+            "4 reactions (social validation)"
+          ],
+          "content": "this is the theme for our wedding, come in your best goth gear, if you wanna match the venue, blue black and white are the colors, if you need an invite i can put some in the fc chest or you can dm me and i can log in to give you an invite as i am off until wednesday, its next satuday june 21st at 11 pm est",
+          "reactions": 4,
+          "timestamp": "2025-06-15T12:35:12.401-07:00",
+          "user": "spicychickennugges",
+          "channel": "unknown",
+          "rank": 10
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (37 chars)"
+          ],
+          "content": "Or sword I forget which name they use",
+          "reactions": 0,
+          "timestamp": "2025-02-27T07:49:56.57-08:00",
+          "user": "spicychickennugges",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (37 chars)"
+          ],
+          "content": "i just forget how bad kayn is in aram",
+          "reactions": 0,
+          "timestamp": "2025-04-06T19:29:36.115-07:00",
+          "user": "spicychickennugges",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (38 chars)"
+          ],
+          "content": "It only watches me if I make a mistake",
+          "reactions": 0,
+          "timestamp": "2025-05-24T11:03:56.284-07:00",
+          "user": "spicychickennugges",
+          "channel": "unknown",
+          "rank": 8
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(teemo|teemoing)\\b"
+          ],
+          "content": "https://tenor.com/view/teemo-welcome-welcome-to-the-zoo-zoo-wave-gif-14704363213963947897",
+          "reactions": 0,
+          "timestamp": "2025-04-07T04:03:26.163-07:00",
+          "user": "spicychickennugges",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(teemo|teemoing)\\b"
+          ],
+          "content": "https://tenor.com/view/teemo-welcome-welcome-to-the-zoo-zoo-wave-gif-14704363213963947897",
+          "reactions": 0,
+          "timestamp": "2025-04-10T11:24:13.047-07:00",
+          "user": "spicychickennugges",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(teemo|teemoing)\\b"
+          ],
+          "content": "https://tenor.com/view/teemo-welcome-welcome-to-the-zoo-zoo-wave-gif-14704363213963947897",
+          "reactions": 0,
+          "timestamp": "2025-04-16T12:26:57.947-07:00",
+          "user": "spicychickennugges",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(teemo|teemoing)\\b"
+          ],
+          "content": "https://tenor.com/view/teemo-welcome-welcome-to-the-zoo-zoo-wave-gif-14704363213963947897",
+          "reactions": 0,
+          "timestamp": "2025-05-04T09:00:40.822-07:00",
+          "user": "spicychickennugges",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(teemo|teemoing)\\b"
+          ],
+          "content": "https://tenor.com/view/teemo-welcome-welcome-to-the-zoo-zoo-wave-gif-14704363213963947897",
+          "reactions": 0,
+          "timestamp": "2025-05-04T20:54:58.182-07:00",
+          "user": "spicychickennugges",
+          "channel": "unknown",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "username": "meicheor",
+      "totalMessages": 3825,
+      "punCount": 9,
+      "punPercentage": "0.24",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (26 chars)"
+          ],
+          "content": "so i did in fact forget it",
+          "reactions": 0,
+          "timestamp": "2025-11-23T08:56:57.396-08:00",
+          "user": "meicheor",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (28 chars)"
+          ],
+          "content": "i’ll forget it in 20 minutes",
+          "reactions": 0,
+          "timestamp": "2025-11-14T08:20:36.678-08:00",
+          "user": "meicheor",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (40 chars)"
+          ],
+          "content": "i need to forget about this bc it’s like",
+          "reactions": 0,
+          "timestamp": "2025-11-18T08:55:42.185-08:00",
+          "user": "meicheor",
+          "channel": "unknown",
+          "rank": 9
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "they’ll probably forget to feed them and then my work will be for nothing",
+          "reactions": 0,
+          "timestamp": "2025-12-02T20:25:00.169-08:00",
+          "user": "meicheor",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "damn i forget how much i actually liked the gameplay",
+          "reactions": 0,
+          "timestamp": "2025-11-18T12:18:12.291-08:00",
+          "user": "meicheor",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "well it’s like labbing in a fighting game\nyou will create the best combo, fuck it up in ranked and forget it",
+          "reactions": 0,
+          "timestamp": "2025-11-05T08:50:54.954-08:00",
+          "user": "meicheor",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "how do we always forget that it originally was just a botw clone",
+          "reactions": 0,
+          "timestamp": "2025-11-21T11:10:03.002-08:00",
+          "user": "meicheor",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "i’ve never done anything w computers before so i was bound to at least make a mistake",
+          "reactions": 0,
+          "timestamp": "2025-12-19T05:20:07.33-08:00",
+          "user": "meicheor",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "it’s not like i have context, i’ll forget about it in the morning",
+          "reactions": 0,
+          "timestamp": "2025-11-02T21:19:16.451-08:00",
+          "user": "meicheor",
+          "channel": "unknown",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "username": "andystructable",
+      "totalMessages": 2236,
+      "punCount": 8,
+      "punPercentage": "0.36",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (29 chars)"
+          ],
+          "content": "never forget the PCT incident",
+          "reactions": 0,
+          "timestamp": "2025-08-22T12:46:30.538-07:00",
+          "user": "andystructable",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (48 chars)",
+            "1 reactions"
+          ],
+          "content": "dont forget about bro, he truly does want aether",
+          "reactions": 1,
+          "timestamp": "2025-05-05T13:26:52.15-07:00",
+          "user": "andystructable",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(chest|chesty)\\b.*\\b(off|get)\\b",
+            "Punchy message (43 chars)"
+          ],
+          "content": "can join for a 1 chest if you get desperate",
+          "reactions": 0,
+          "timestamp": "2025-05-21T16:37:47.539-07:00",
+          "user": "andystructable",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(chest|chesty)\\b.*\\b(off|get)\\b",
+            "Punchy message (43 chars)"
+          ],
+          "content": "can join for a 1 chest if you get desperate",
+          "reactions": 0,
+          "timestamp": "2025-05-21T16:37:47.539-07:00",
+          "user": "andystructable",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (46 chars)"
+          ],
+          "content": "it's fun but I forget how motion sick I get 💔",
+          "reactions": 0,
+          "timestamp": "2025-05-13T13:13:36.346-07:00",
+          "user": "andystructable",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "hearing Elara beg for help as I unload 30 mags of ammo into a wall of impenetrable meat, I will never forget 😔",
+          "reactions": 0,
+          "timestamp": "2025-07-31T08:59:21.467-07:00",
+          "user": "andystructable",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "yea bro said he makes 1 mistake per 100 pulls, and hasn't made one mistake in the last 30 days lol",
+          "reactions": 0,
+          "timestamp": "2025-05-07T14:50:30.756-07:00",
+          "user": "andystructable",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "honestly ill probably forget by the time i get to my next annual play-reaper-for-a-day moment 😭",
+          "reactions": 0,
+          "timestamp": "2025-08-14T11:28:11.43-07:00",
+          "user": "andystructable",
+          "channel": "unknown",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "username": "raylakua",
+      "totalMessages": 4686,
+      "punCount": 8,
+      "punPercentage": "0.17",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (24 chars)"
+          ],
+          "content": "Don't forget the materia",
+          "reactions": 0,
+          "timestamp": "2025-09-21T10:31:38.904-07:00",
+          "user": "raylakua",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (27 chars)"
+          ],
+          "content": "don't forget to tuck him in",
+          "reactions": 0,
+          "timestamp": "2025-11-09T08:54:41.697-08:00",
+          "user": "raylakua",
+          "channel": "unknown",
+          "rank": 8
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (34 chars)"
+          ],
+          "content": "God, opening r/ffxiv was a mistake",
+          "reactions": 0,
+          "timestamp": "2025-08-21T15:08:50.182-07:00",
+          "user": "raylakua",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Let's not forget the madness that was Samurai Champloo (specifically the baseball episode)",
+          "reactions": 0,
+          "timestamp": "2025-05-11T13:09:05.985-07:00",
+          "user": "raylakua",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Every time somebody posts a picture of their chat I forget those things (markers) exist",
+          "reactions": 0,
+          "timestamp": "2025-12-18T15:26:37.63-08:00",
+          "user": "raylakua",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "Make no mistake, it's coming. PVP is already like that (and one of the myriad reasons I don't touch it)",
+          "reactions": 0,
+          "timestamp": "2025-03-15T21:47:26.35-07:00",
+          "user": "raylakua",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "Don't forget there's Val and her small army of Craftuarians that can make shit for you",
+          "reactions": 0,
+          "timestamp": "2025-06-02T19:16:53.968-07:00",
+          "user": "raylakua",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "I'll never forget how my friend described Inuyasha way back in high school",
+          "reactions": 0,
+          "timestamp": "2025-08-22T11:07:48.361-07:00",
+          "user": "raylakua",
+          "channel": "unknown",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "username": "crowned__",
+      "totalMessages": 3279,
+      "punCount": 8,
+      "punPercentage": "0.24",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (23 chars)"
+          ],
+          "content": "dc travel was a mistake",
+          "reactions": 0,
+          "timestamp": "2025-12-03T12:16:14.268-08:00",
+          "user": "crowned__",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (17 chars)"
+          ],
+          "content": "i forget how much",
+          "reactions": 0,
+          "timestamp": "2025-09-25T07:06:55.477-07:00",
+          "user": "crowned__",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (45 chars)"
+          ],
+          "content": "it was kira milana's friend i forget his name",
+          "reactions": 0,
+          "timestamp": "2025-11-14T12:10:13.425-08:00",
+          "user": "crowned__",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Punchy message (48 chars)"
+          ],
+          "content": "not click targeting during crystals is a mistake",
+          "reactions": 0,
+          "timestamp": "2025-11-27T10:15:58.768-08:00",
+          "user": "crowned__",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/minor-spelling-mistake-gif-21179057",
+          "reactions": 0,
+          "timestamp": "2025-11-13T14:09:45.681-08:00",
+          "user": "crowned__",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "square \"we'll never make the same mistake we did again with BA\" enix",
+          "reactions": 0,
+          "timestamp": "2025-11-14T11:14:25.935-08:00",
+          "user": "crowned__",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "ah yes i forget the rice when im making fried rice sometimes too",
+          "reactions": 0,
+          "timestamp": "2025-08-22T11:12:07.399-07:00",
+          "user": "crowned__",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "i forget the minimum to do a levequest but its pretty low",
+          "reactions": 0,
+          "timestamp": "2025-09-20T09:04:48.833-07:00",
+          "user": "crowned__",
+          "channel": "unknown",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "username": "vrayyz",
+      "totalMessages": 5928,
+      "punCount": 7,
+      "punPercentage": "0.12",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (27 chars)"
+          ],
+          "content": "i usually forget t odo them",
+          "reactions": 0,
+          "timestamp": "2025-06-19T20:00:25.251-07:00",
+          "user": "vrayyz",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (28 chars)"
+          ],
+          "content": "we never forget his kindness",
+          "reactions": 0,
+          "timestamp": "2025-04-08T13:19:33.59-07:00",
+          "user": "vrayyz",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (21 chars)"
+          ],
+          "content": "never forget the goat",
+          "reactions": 0,
+          "timestamp": "2025-10-08T18:05:40.276-07:00",
+          "user": "vrayyz",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (30 chars)"
+          ],
+          "content": "there may have been a mistake!",
+          "reactions": 0,
+          "timestamp": "2025-12-21T18:41:15.082-08:00",
+          "user": "vrayyz",
+          "channel": "unknown",
+          "rank": 7
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (34 chars)"
+          ],
+          "content": "don’t forget YOU’RE MARRIED ASWELL",
+          "reactions": 0,
+          "timestamp": "2025-06-15T10:46:35.829-07:00",
+          "user": "vrayyz",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "let’s not forget that one time i made your sisters keyboard too",
+          "reactions": 0,
+          "timestamp": "2025-05-20T10:13:41.342-07:00",
+          "user": "vrayyz",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/minor-spelling-mistake-ffxiv-final-fantasy-xiv-final-fantasy-14-ff14-gif-10167608605026655705",
+          "reactions": 0,
+          "timestamp": "2025-04-24T15:42:42.069-07:00",
+          "user": "vrayyz",
+          "channel": "unknown",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "username": "mitch_bear",
+      "totalMessages": 5244,
+      "punCount": 6,
+      "punPercentage": "0.11",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (16 chars)"
+          ],
+          "content": "Don’t forget Val",
+          "reactions": 0,
+          "timestamp": "2025-12-17T14:54:45.39-08:00",
+          "user": "mitch_bear",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (30 chars)"
+          ],
+          "content": "The government will not forget",
+          "reactions": 0,
+          "timestamp": "2025-06-08T19:00:06.904-07:00",
+          "user": "mitch_bear",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (17 chars)"
+          ],
+          "content": "Forget their rdps",
+          "reactions": 0,
+          "timestamp": "2025-12-22T01:31:52.759-08:00",
+          "user": "mitch_bear",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Concise delivery (14 chars)"
+          ],
+          "content": "It’s a mistake",
+          "reactions": 0,
+          "timestamp": "2025-06-19T05:31:56.085-07:00",
+          "user": "mitch_bear",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(wingin|winging)\\b",
+            "Punchy message (32 chars)"
+          ],
+          "content": "You meant no winging :sashadumb:",
+          "reactions": 0,
+          "timestamp": "2025-12-22T01:30:24.402-08:00",
+          "user": "mitch_bear",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/minor-spelling-mistake-gif-21179057",
+          "reactions": 0,
+          "timestamp": "2025-04-29T16:57:40.23-07:00",
+          "user": "mitch_bear",
+          "channel": "unknown",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "username": "argotheargo",
+      "totalMessages": 4488,
+      "punCount": 6,
+      "punPercentage": "0.13",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (12 chars)"
+          ],
+          "content": "Never Forget",
+          "reactions": 0,
+          "timestamp": "2025-05-18T18:48:39.489-07:00",
+          "user": "argotheargo",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Concise delivery (12 chars)"
+          ],
+          "content": "Never Forget",
+          "reactions": 0,
+          "timestamp": "2025-05-18T18:48:39.489-07:00",
+          "user": "argotheargo",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (34 chars)",
+            "1 reactions"
+          ],
+          "content": "Don't forget the lala hamster cage",
+          "reactions": 1,
+          "timestamp": "2025-12-13T12:10:37.416-08:00",
+          "user": "argotheargo",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (46 chars)"
+          ],
+          "content": "I'll write it down and then immediately forget",
+          "reactions": 0,
+          "timestamp": "2025-05-26T16:39:58.358-07:00",
+          "user": "argotheargo",
+          "channel": "unknown",
+          "rank": 6
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(blu|blue)\\b.*\\b(feeling|gonna|group)\\b"
+          ],
+          "content": "https://tenor.com/view/ajr-ajr-brothers-blue-man-group-ordinaryish-people-gif-25074217",
+          "reactions": 0,
+          "timestamp": "2025-09-24T13:17:22.569-07:00",
+          "user": "argotheargo",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(blu|blue)\\b.*\\b(feeling|gonna|group)\\b"
+          ],
+          "content": "https://tenor.com/view/ajr-ajr-brothers-blue-man-group-ordinaryish-people-gif-25074217",
+          "reactions": 0,
+          "timestamp": "2025-09-24T13:17:22.569-07:00",
+          "user": "argotheargo",
+          "channel": "unknown",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "username": "cynume",
+      "totalMessages": 3507,
+      "punCount": 5,
+      "punPercentage": "0.14",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/minor-spelling-mistake-ffxiv-final-fantasy-xiv-final-fantasy-14-ff14-gif-10167608605026655705",
+          "reactions": 0,
+          "timestamp": "2025-04-23T06:30:18.813-07:00",
+          "user": "cynume",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/minor-spelling-mistake-ffxiv-final-fantasy-xiv-final-fantasy-14-ff14-gif-10167608605026655705",
+          "reactions": 0,
+          "timestamp": "2025-04-11T21:00:59.842-07:00",
+          "user": "cynume",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/minor-spelling-mistake-ffxiv-final-fantasy-xiv-final-fantasy-14-ff14-gif-10167608605026655705",
+          "reactions": 0,
+          "timestamp": "2025-04-13T09:31:50.968-07:00",
+          "user": "cynume",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "https://tenor.com/view/minor-spelling-mistake-ffxiv-final-fantasy-xiv-final-fantasy-14-ff14-gif-10167608605026655705",
+          "reactions": 0,
+          "timestamp": "2025-04-21T12:15:24.152-07:00",
+          "user": "cynume",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "did this while setting up my steam deck for the first time on ffxiv, worst mistake ever...",
+          "reactions": 0,
+          "timestamp": "2025-06-23T02:16:37.26-07:00",
+          "user": "cynume",
+          "channel": "unknown",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "username": "kyeou.drei",
+      "totalMessages": 1687,
+      "punCount": 5,
+      "punPercentage": "0.30",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 5,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (48 chars)",
+            "1 reactions"
+          ],
+          "content": "sometimes i'm made aware\ni just choose to forget",
+          "reactions": 1,
+          "timestamp": "2025-12-14T14:33:48.649-08:00",
+          "user": "kyeou.drei",
+          "channel": "unknown",
+          "rank": 5
+        },
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b",
+            "Punchy message (32 chars)"
+          ],
+          "content": "sometimes i even forget about bc",
+          "reactions": 0,
+          "timestamp": "2025-12-14T14:32:46.011-08:00",
+          "user": "kyeou.drei",
+          "channel": "unknown",
+          "rank": 4
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "sometimes i forget they exist too \ni got so used to them being there that i don't notice them at all",
+          "reactions": 0,
+          "timestamp": "2025-12-18T15:27:41.155-08:00",
+          "user": "kyeou.drei",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b"
+          ],
+          "content": "Tooru isn't terrible honestly\nI think me and arekin were also alarmed at the pf terrorist lol\nI've had them several times in p5 parties\nFrom what I remember, they aren't amazing but they aren't bad, like a mistake here and there",
+          "reactions": 0,
+          "timestamp": "2025-11-12T11:07:07.531-08:00",
+          "user": "kyeou.drei",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "i forget anything besides ontario, alberta, and bc exist",
+          "reactions": 0,
+          "timestamp": "2025-12-14T14:32:33.448-08:00",
+          "user": "kyeou.drei",
+          "channel": "unknown",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "username": "gloomygeru",
+      "totalMessages": 2745,
+      "punCount": 4,
+      "punPercentage": "0.15",
+      "puns": [
+        {
+          "isPun": true,
+          "score": 4,
+          "indicators": [
+            "Wordplay detected: \\b(misteak|mistake)\\b",
+            "Contextual humor: \\b(get it|you know|right|eh|aye)\\b.*\\?*$"
+          ],
+          "content": "its a fine way of thinking for ppl that dont care \nif val decides to do on content savage or ultimate, she will be slapped accross the face so hard youd mistake her for an owl, so until that happens, if at all, why should she care lol? i get where youre coming from 100%, but if she doesnt care about high end content why invest time into figuring that sort of thing out? \n\nthis becomes a problem ONLY when ppl who play like val, begin dictating the direction of the game's content's balance. so its up to yoship to listen to the right ppl imo",
+          "reactions": 0,
+          "timestamp": "2025-11-20T14:56:53.796-08:00",
+          "user": "gloomygeru",
+          "channel": "unknown",
+          "rank": 3
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "lol did you forget me and kyeou are married? ||hi btw o/||",
+          "reactions": 0,
+          "timestamp": "2025-07-20T19:18:40.939-07:00",
+          "user": "gloomygeru",
+          "channel": "unknown",
+          "rank": 1
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "comically large rainbow lollipop and a puppy, can't forget those",
+          "reactions": 0,
+          "timestamp": "2025-10-01T14:18:44.024-07:00",
+          "user": "gloomygeru",
+          "channel": "unknown",
+          "rank": 2
+        },
+        {
+          "isPun": true,
+          "score": 3,
+          "indicators": [
+            "Wordplay detected: \\b(frog-et|forget)\\b"
+          ],
+          "content": "https://tenor.com/view/remember-lion-king-mufasa-forget-dont-forget-gif-16698250",
+          "reactions": 0,
+          "timestamp": "2025-05-12T15:45:53.29-07:00",
+          "user": "gloomygeru",
+          "channel": "unknown",
+          "rank": 4
+        }
+      ]
+    }
+  ],
+  "altaniRank": null,
+  "altaniStats": null
+}
