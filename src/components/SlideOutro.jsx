@@ -58,10 +58,10 @@ function SlideOutro({ stats }) {
               <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Analytics Engine:</span> ChatAnalytics.app
             </div>
             <div>
-              <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Creative Director:</span> Aarekin
+              <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Creative Director:</span> Zi
             </div>
             <div>
-              <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>DED Officers:</span> Thorn, Val Reina, A Cade, Cleo "League Dealer" Linieh
+              <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>DED Officers:</span> Thorn, Val Reina, A Cade, Cleo "League Dealer" Linieh, AArekin AAlatus
             </div>
             <div>
               <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Community Feedback:</span> The DED Fam
