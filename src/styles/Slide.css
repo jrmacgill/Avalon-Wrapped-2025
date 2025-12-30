@@ -891,4 +891,20 @@
   line-height: 1.4;
 }
 
+/* FFXIV Job Card Styles */
+.ffxiv-job-card {
+  text-align: center;
+  background: var(--guild-bg-card);
+  border: 2px solid var(--ffxiv-gold);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.ffxiv-job-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(249, 115, 22, 0.3);
+  border-color: var(--ffxiv-gold);
+}
+
 

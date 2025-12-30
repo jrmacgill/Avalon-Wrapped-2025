@@ -7,6 +7,23 @@ function SlideFFXIV({ stats }) {
   const topRaids = ffxiv.topRaids || []
   const topContent = ffxiv.topContent || []
 
+  // Map job names to icon filenames
+  const getJobIcon = (jobName) => {
+    const iconMap = {
+      'Bard': 'Bard.png',
+      'Blue Mage': 'BlueMage.png',
+      'Dancer': 'Dancer.png',
+      'Monk': 'Monk.png',
+      'Ninja': 'Ninja.png',
+      'Reaper': 'Reaper.png',
+      'Sage': 'Sage.png',
+      'Scholar': 'Scholar.png',
+      'Summoner': 'Summoner.png',
+      'Warrior': 'Warrior.png'
+    }
+    return iconMap[jobName] || null
+  }
+
   return (
     <div className="slide">
       <FloatingGhosts count={Math.floor(Math.random() * 8) + 3} />
@@ -20,12 +37,41 @@ function SlideFFXIV({ stats }) {
               Most Mentioned Jobs
             </h3>
             <div className="stat-grid">
-              {topJobs.map((item, index) => (
-                <div key={item.job} className="stat-card" style={{ animationDelay: `${index * 0.1}s` }}>
-                  <div className="stat-card-title">{item.job}</div>
-                  <div className="stat-card-value">{item.count.toLocaleString()}</div>
-                </div>
-              ))}
+              {topJobs.map((item, index) => {
+                const iconFile = getJobIcon(item.job)
+                return (
+                  <div key={item.job} className="stat-card ffxiv-job-card" style={{ animationDelay: `${index * 0.1}s` }}>
+                    {iconFile && (
+                      <div style={{
+                        width: '60px',
+                        height: '60px',
+                        margin: '0 auto 1rem',
+                        background: 'rgba(0, 0, 0, 0.3)',
+                        borderRadius: '8px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        border: '2px solid var(--ffxiv-gold)'
+                      }}>
+                        <img
+                          src={`${import.meta.env.BASE_URL}assets/${iconFile}`}
+                          alt={`${item.job} icon`}
+                          style={{
+                            width: '50px',
+                            height: '50px',
+                            objectFit: 'contain'
+                          }}
+                          onError={(e) => {
+                            e.target.style.display = 'none'
+                          }}
+                        />
+                      </div>
+                    )}
+                    <div className="stat-card-title">{item.job}</div>
+                    <div className="stat-card-value">{item.count.toLocaleString()}</div>
+                  </div>
+                )
+              })}
             </div>
           </div>
         )}
