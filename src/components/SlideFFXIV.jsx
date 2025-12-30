@@ -50,8 +50,7 @@ function SlideFFXIV({ stats }) {
                         borderRadius: '8px',
                         display: 'flex',
                         alignItems: 'center',
-                        justifyContent: 'center',
-                        border: '2px solid var(--guild-red)'
+                        justifyContent: 'center'
                       }}>
                         <img
                           src={`${import.meta.env.BASE_URL}assets/${iconFile}`}
