@@ -129,11 +129,70 @@ Edit `scripts/process-data.js` to add new statistics or modify existing ones.
 - Slide styles: `src/styles/Slide.css`
 - App styles: `src/styles/App.css`
 
+## Development Workflow
+
+This project maintains **separate workflows** for local development and production deployment to keep raw Discord data private while allowing easy updates.
+
+### Local Development
+```bash
+# 1. Generate fresh stats from raw Discord data
+npm run process-data
+
+# 2. Start development server (uses latest local stats)
+npm run dev
+
+# 3. Visit http://localhost:5173
+```
+
+### Production Deployment
+```bash
+# 1. Update production stats with current local data
+npm run prepare-deploy
+
+# 2. Push to GitHub (triggers automatic deployment)
+git push origin main
+
+# 3. Visit https://kaycep.github.io/DED-Wrapped-2025/
+```
+
+### File Management
+
+| File | Local | Git Tracked | Production | Purpose |
+|------|-------|-------------|------------|---------|
+| `public/data/stats.json` | ✅ Latest data | ❌ Ignored | ❌ Not deployed | Working stats |
+| `public/data/stats.production.json` | ❌ N/A | ✅ Committed | ✅ Used in build | Production data |
+| `public/assets/*` | ✅ Graphics | ✅ Committed | ✅ Deployed | Images |
+| Raw Discord JSON files | ✅ Local only | ❌ Never committed | ❌ Never deployed | Private data |
+
+### Updating Production Data
+
+When you want to update the live site with new data:
+
+```bash
+# Generate fresh stats from latest Discord data
+npm run process-data
+
+# Copy current stats to production version
+npm run prepare-deploy
+
+# Commit and push (triggers deployment)
+git add .
+git commit -m "Update production stats"
+git push origin main
+```
+
+### Key Principles
+
+1. **Privacy First**: Raw Discord data never leaves your machine
+2. **Separate Workflows**: Local development uses fresh data, production uses committed data
+3. **Easy Updates**: Simple commands to sync production with local data
+4. **Git Safety**: Sensitive data is properly excluded from version control
+
 ## Notes
 
 - The data processing script reads from `C:\Users\Evelyn\Documents\DED` - update the path in `scripts/process-data.js` if your data is elsewhere
 - Large JSON files may take time to process
-- `stats.json` is gitignored by default - commit it manually if needed for deployment
+- `stats.json` is gitignored by default - use `stats.production.json` for deployment
 
 ## License
 
