@@ -41,10 +41,18 @@ jobs:
       
       - name: Prepare production data
         run: |
+          echo "Current directory: $(pwd)"
+          echo "Files in public/data/:"
+          ls -la public/data/ || echo "public/data not found"
           mkdir -p public/data
-          cp public/data/stats.production.json public/data/stats.json
-          echo "Production stats prepared"
-          ls -la public/data/
+          if [ -f "public/data/stats.production.json" ]; then
+            cp public/data/stats.production.json public/data/stats.json
+            echo "✅ Production stats copied successfully"
+            ls -la public/data/stats.json
+          else
+            echo "❌ stats.production.json not found!"
+            exit 1
+          fi
 
       - name: Build
         run: npm run build
