@@ -947,13 +947,8 @@
 }
 
 .reaction-card:hover .reaction-screenshot {
-  height: 280px;
+  height: 300px;
   transition: height 0.3s ease;
-}
-
-.reaction-card:hover .reaction-screenshot img {
-  object-fit: contain;
-  transition: object-fit 0.3s ease;
 }
 
 .reaction-screenshot {
