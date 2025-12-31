@@ -28,7 +28,7 @@ function SlideReactions({ stats }) {
                   }}
                   style={{
                     width: '100%',
-                    height: '200px',
+                    height: '100%',
                     borderRadius: '8px',
                     objectFit: 'cover'
                   }}

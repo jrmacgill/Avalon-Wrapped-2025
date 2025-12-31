@@ -956,6 +956,7 @@
   height: 200px;
   border-radius: 8px;
   overflow: hidden;
+  transition: height 0.3s ease;
 }
 
 .reaction-screenshot img {
