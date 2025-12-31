@@ -24,6 +24,24 @@ function SlideFFXIV({ stats }) {
     return iconMap[jobName.toLowerCase().replace(/\s+/g, '')] || null
   }
 
+  // Map raid content to icon filenames
+  const getRaidIcon = (raidName) => {
+    const raidIconMap = {
+      'savage': 'savage.png',
+      'unreal': 'unreal.png',
+      'dungeon': 'dungeon.png',
+      'ultimate': 'ultimate.png',
+      'extreme': 'extreme.png',
+      'alliance': 'alliance.png',
+      'trial': 'trial.png'
+    }
+    // Try different matching strategies
+    const lowerName = raidName.toLowerCase()
+    const icon = raidIconMap[lowerName] ||
+                 raidIconMap[Object.keys(raidIconMap).find(key => lowerName.includes(key))]
+    return icon || null
+  }
+
   return (
     <div className="slide">
       <FloatingGhosts count={Math.floor(Math.random() * 8) + 3} />
@@ -81,12 +99,40 @@ function SlideFFXIV({ stats }) {
               Raid Content Mentions
             </h3>
             <div className="stat-grid">
-              {topRaids.map((item, index) => (
-                <div key={item.raid} className="stat-card" style={{ animationDelay: `${index * 0.1}s` }}>
-                  <div className="stat-card-title">{item.raid}</div>
-                  <div className="stat-card-value">{item.count.toLocaleString()}</div>
-                </div>
-              ))}
+              {topRaids.map((item, index) => {
+                const raidIconFile = getRaidIcon(item.raid)
+                return (
+                  <div key={item.raid} className="stat-card ffxiv-raid-card" style={{ animationDelay: `${index * 0.1}s` }}>
+                    {raidIconFile && (
+                      <div style={{
+                        width: '60px',
+                        height: '60px',
+                        margin: '0 auto 1rem',
+                        background: 'rgba(0, 0, 0, 0.3)',
+                        borderRadius: '8px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center'
+                      }}>
+                        <img
+                          src={`${import.meta.env.BASE_URL}assets/${raidIconFile}`}
+                          alt={`${item.raid} icon`}
+                          style={{
+                            width: '50px',
+                            height: '50px',
+                            objectFit: 'contain'
+                          }}
+                          onError={(e) => {
+                            e.target.style.display = 'none'
+                          }}
+                        />
+                      </div>
+                    )}
+                    <div className="stat-card-title">{item.raid}</div>
+                    <div className="stat-card-value">{item.count.toLocaleString()}</div>
+                  </div>
+                )
+              })}
             </div>
           </div>
         )}

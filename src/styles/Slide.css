@@ -860,6 +860,26 @@
   box-shadow: 0 4px 25px rgba(220, 38, 38, 0.3);
 }
 
+/* FFXIV Raid Card Styles */
+.ffxiv-raid-card {
+  text-align: center;
+  background: var(--guild-bg-card);
+  border: 2px solid rgba(75, 85, 99, 0.4);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.8s ease-out;
+  animation-fill-mode: both;
+  backdrop-filter: blur(10px);
+}
+
+.ffxiv-raid-card:hover {
+  background: rgba(55, 65, 81, 0.9);
+  border-color: var(--guild-red);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(220, 38, 38, 0.15);
+}
+
 .card-icon {
   font-size: 2.5rem;
   min-width: 60px;
