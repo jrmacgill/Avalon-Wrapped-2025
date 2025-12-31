@@ -30,7 +30,8 @@ function SlideReactions({ stats }) {
                     width: '100%',
                     height: '100%',
                     borderRadius: '8px',
-                    objectFit: 'cover'
+                    objectFit: 'contain',
+                    background: 'rgba(0, 0, 0, 0.1)'
                   }}
                 />
               </div>
