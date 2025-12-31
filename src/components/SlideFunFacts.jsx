@@ -142,8 +142,8 @@ function SlideFunFacts({ stats }) {
         {/* Communication Style Overview */}
         <div className="communication-categories">
           <h3 style={{
-            color: 'var(--guild-orange)',
-            textAlign: 'center',
+                color: 'var(--guild-orange)',
+                textAlign: 'center',
             marginBottom: '2rem',
             fontSize: '1.5rem'
           }}>
@@ -162,10 +162,10 @@ function SlideFunFacts({ stats }) {
                   <div className="card-title">{insight.title}</div>
                   <div className="card-value">{insight.value}</div>
                   <div className="card-description">{insight.description}</div>
-                </div>
+              </div>
               </div>
             ))}
-          </div>
+            </div>
         </div>
       </div>
     </div>

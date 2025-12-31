@@ -118,7 +118,7 @@ function SlideTimeline({ stats }) {
                 <div key={month} className="month-bar-container">
                   <div
                     className={`month-bar ${halfwayPoint || milestoneHere ? 'milestone' : ''}`}
-                    style={{
+              style={{
                       height: `${heightPx}px`,
                       background: halfwayPoint
                         ? 'var(--gradient-orange)'
@@ -134,7 +134,7 @@ function SlideTimeline({ stats }) {
                     {milestoneHere && (
                       <div className="season-indicator">{milestoneHere.graphIcon}</div>
                     )}
-                  </div>
+              </div>
                   <div className="month-label">{monthNames[month]}</div>
                   <div className="month-count">{count > 0 ? count.toLocaleString() : ''}</div>
                 </div>
@@ -150,7 +150,7 @@ function SlideTimeline({ stats }) {
             textAlign: 'center',
             marginBottom: '2rem',
             fontSize: '1.5rem'
-          }}>
+                }}>
             Community Evolution Milestones
           </h3>
           <div className="milestones-grid">
@@ -185,7 +185,7 @@ function SlideTimeline({ stats }) {
               <div className="insight-value">{Math.round((avgQuestionsPerUser / avgRepliesPerUser) * 100)}%</div>
               <div className="insight-desc">Questions vs replies ratio</div>
             </div>
-          </div>
+        </div>
 
           <div className="insight-card">
             <div className="insight-icon">🔗</div>

@@ -649,6 +649,15 @@
     padding: 1rem;
   }
 
+  .reactions-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .reaction-card {
+    padding: 1rem;
+  }
+
   .growth-chart-container {
     height: 200px;
     gap: 4px;
@@ -683,8 +692,6 @@
   .communication-spectrum {
     padding: 1.5rem;
   }
-}
-
 }
 
 @media (max-width: 768px) {
