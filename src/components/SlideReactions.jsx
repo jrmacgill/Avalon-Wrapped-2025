@@ -1,8 +1,10 @@
 import '../styles/Slide.css'
 import FloatingGhosts from './FloatingGhosts'
+import { useState } from 'react'
 
 function SlideReactions({ stats }) {
   const topReactions = stats?.topReactions?.slice(0, 10) || []
+  const [enlargedImage, setEnlargedImage] = useState(null)
 
 
   return (
@@ -18,6 +20,7 @@ function SlideReactions({ stats }) {
               key={`${msg.messageId}-${index}`}
               className="reaction-card"
               style={{ animationDelay: `${index * 0.1}s` }}
+              onClick={() => setEnlargedImage(index)}
             >
               <div className="reaction-screenshot">
                 <img
@@ -30,8 +33,7 @@ function SlideReactions({ stats }) {
                     width: '100%',
                     height: '100%',
                     borderRadius: '8px',
-                    objectFit: 'contain',
-                    background: 'rgba(0, 0, 0, 0.1)'
+                    objectFit: 'contain'
                   }}
                 />
               </div>
@@ -60,6 +62,29 @@ function SlideReactions({ stats }) {
             </div>
           ))}
         </div>
+
+        {/* Enlarged Image Modal */}
+        {enlargedImage !== null && (
+          <div
+            className="enlarged-image-overlay"
+            onClick={() => setEnlargedImage(null)}
+          >
+            <div className="enlarged-image-container">
+              <img
+                src={`/assets/Most_Reacted_Messages_${enlargedImage + 1}.png`}
+                alt={`Enlarged reaction message ${enlargedImage + 1}`}
+                className="enlarged-image"
+                onClick={(e) => e.stopPropagation()}
+              />
+              <button
+                className="enlarged-image-close"
+                onClick={() => setEnlargedImage(null)}
+              >
+                ✕
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )
