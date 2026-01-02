@@ -6,32 +6,34 @@ function SlideEmoji({ stats }) {
   const achievements = stats?.achievements || {}
   const topUsers = stats?.topUsers || []
 
-  // Get top message emojis
-  const topMessageEmojis = Object.entries(emojis.messageEmojis || {})
+  // Get top message emojis (combine Unicode and custom)
+  const allMessageEmojis = { ...emojis.messageEmojis, ...emojis.messageCustomEmojis }
+  const topMessageEmojis = Object.entries(allMessageEmojis)
     .sort(([,a], [,b]) => b - a)
     .slice(0, 10)
 
-  // Get top reaction emojis
-  const topReactionEmojis = Object.entries(emojis.reactionEmojis || {})
+  // Get top reaction emojis (combine Unicode and custom)
+  const allReactionEmojis = { ...emojis.reactionEmojis, ...emojis.reactionCustomEmojis }
+  const topReactionEmojis = Object.entries(allReactionEmojis)
     .sort(([,a], [,b]) => b - a)
     .slice(0, 10)
 
   // Get top custom emojis (combined from messages and reactions)
-  const allCustomEmojis = { ...emojis.customEmojis }
+  const allCustomEmojis = { ...emojis.messageCustomEmojis, ...emojis.reactionCustomEmojis }
   const topCustomEmojis = Object.entries(allCustomEmojis)
     .sort(([,a], [,b]) => b - a)
     .slice(0, 10)
 
-  // Get emoji enthusiasts
-  const emojiEnthusiasts = achievements.emojiEnthusiast?.top5 || []
-
   // Calculate emoji statistics
-  const totalMessageEmojis = Object.values(emojis.messageEmojis || {}).reduce((sum, count) => sum + count, 0)
-  const totalReactionEmojis = Object.values(emojis.reactionEmojis || {}).reduce((sum, count) => sum + count, 0)
-  const totalCustomEmojis = Object.values(emojis.customEmojis || {}).reduce((sum, count) => sum + count, 0)
-  const uniqueMessageEmojis = Object.keys(emojis.messageEmojis || {}).length
-  const uniqueReactionEmojis = Object.keys(emojis.reactionEmojis || {}).length
-  const uniqueCustomEmojis = Object.keys(emojis.customEmojis || {}).length
+  const totalMessageEmojis = Object.values(emojis.messageEmojis || {}).reduce((sum, count) => sum + count, 0) +
+                            Object.values(emojis.messageCustomEmojis || {}).reduce((sum, count) => sum + count, 0)
+  const totalReactionEmojis = Object.values(emojis.reactionEmojis || {}).reduce((sum, count) => sum + count, 0) +
+                             Object.values(emojis.reactionCustomEmojis || {}).reduce((sum, count) => sum + count, 0)
+  const totalCustomEmojis = Object.values(emojis.messageCustomEmojis || {}).reduce((sum, count) => sum + count, 0) +
+                           Object.values(emojis.reactionCustomEmojis || {}).reduce((sum, count) => sum + count, 0)
+  const uniqueMessageEmojis = Object.keys(emojis.messageEmojis || {}).length + Object.keys(emojis.messageCustomEmojis || {}).length
+  const uniqueReactionEmojis = Object.keys(emojis.reactionEmojis || {}).length + Object.keys(emojis.reactionCustomEmojis || {}).length
+  const uniqueCustomEmojis = Object.keys(emojis.messageCustomEmojis || {}).length + Object.keys(emojis.reactionCustomEmojis || {}).length
 
   return (
     <div className="slide">
@@ -129,51 +131,6 @@ function SlideEmoji({ stats }) {
                     </div>
                     <div style={{ fontSize: '0.8rem', color: 'var(--guild-text-dim)' }}>
                       reactions
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* Top Emoji Enthusiasts */}
-        {emojiEnthusiasts.length > 0 && (
-          <div className="chart-container" style={{ marginTop: '2rem' }}>
-            <h3 style={{ marginBottom: '1.5rem', color: 'var(--guild-orange)' }}>Emoji Enthusiasts</h3>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              {emojiEnthusiasts.map((user, index) => (
-                <div key={user.id || index} style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'space-between',
-                  padding: '0.75rem',
-                  background: 'var(--guild-bg-card)',
-                  borderRadius: '8px',
-                  border: '1px solid rgba(75, 85, 99, 0.3)'
-                }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                    <div style={{
-                      width: '40px',
-                      height: '40px',
-                      borderRadius: '50%',
-                      background: 'var(--gradient-red)',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      fontSize: '1.2rem',
-                      fontWeight: 'bold',
-                      color: 'white'
-                    }}>
-                      {index + 1}
-                    </div>
-                    <div>
-                      <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: 'var(--guild-text)' }}>
-                        {user.displayName || user.username}
-                      </div>
-                      <div style={{ fontSize: '0.8rem', color: 'var(--guild-text-dim)' }}>
-                        {user.uniqueEmojiCount} unique emojis
-                      </div>
                     </div>
                   </div>
                 </div>

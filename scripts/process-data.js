@@ -106,9 +106,10 @@ function aggregateStats() {
       other: 0,
     },
     emojis: {
-      messageEmojis: {}, // Emojis used in message text
-      reactionEmojis: {}, // Emojis used in reactions
-      customEmojis: {}, // Discord custom emojis
+      messageEmojis: {}, // Emojis used in message text (Unicode)
+      reactionEmojis: {}, // Emojis used in reactions (Unicode)
+      messageCustomEmojis: {}, // Custom emojis in messages
+      reactionCustomEmojis: {}, // Custom emojis in reactions
     },
     ffxiv: {
       jobMentions: {},
@@ -308,7 +309,7 @@ function aggregateStats() {
         const customEmojisInMessage = messageContent.match(customEmojiRegex)
         if (customEmojisInMessage) {
           customEmojisInMessage.forEach(customEmoji => {
-            stats.emojis.customEmojis[customEmoji] = (stats.emojis.customEmojis[customEmoji] || 0) + 1
+            stats.emojis.messageCustomEmojis[customEmoji] = (stats.emojis.messageCustomEmojis[customEmoji] || 0) + 1
           })
         }
 
@@ -328,16 +329,19 @@ function aggregateStats() {
 
         // Track emoji usage in reactions
         message.reactions.forEach(reaction => {
-          const emoji = reaction.emoji?.name || reaction.emoji
+          const emoji = reaction.emoji
           if (emoji) {
-            // Check if it's a Unicode emoji
-            const emojiRegex = /[\u{1F600}-\u{1F64F}]|[\u{1F300}-\u{1F5FF}]|[\u{1F680}-\u{1F6FF}]|[\u{1F1E0}-\u{1F1FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]/gu
-            if (emojiRegex.test(emoji)) {
-              stats.emojis.reactionEmojis[emoji] = (stats.emojis.reactionEmojis[emoji] || 0) + (reaction.count || 0)
-            } else if (emoji.includes(':')) {
+            // Check if it's a custom emoji (has an id)
+            if (emoji.id) {
               // Custom emoji in reaction
-              const customEmoji = `<${reaction.emoji.animated ? 'a' : ''}:${emoji}:${reaction.emoji.id}>`
-              stats.emojis.customEmojis[customEmoji] = (stats.emojis.customEmojis[customEmoji] || 0) + (reaction.count || 0)
+              const customEmoji = `<${emoji.animated ? 'a' : ''}:${emoji.name}:${emoji.id}>`
+              stats.emojis.reactionCustomEmojis[customEmoji] = (stats.emojis.reactionCustomEmojis[customEmoji] || 0) + (reaction.count || 0)
+            } else if (emoji.name) {
+              // Unicode emoji
+              const emojiRegex = /[\u{1F600}-\u{1F64F}]|[\u{1F300}-\u{1F5FF}]|[\u{1F680}-\u{1F6FF}]|[\u{1F1E0}-\u{1F1FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]/gu
+              if (emojiRegex.test(emoji.name)) {
+                stats.emojis.reactionEmojis[emoji.name] = (stats.emojis.reactionEmojis[emoji.name] || 0) + (reaction.count || 0)
+              }
             }
           }
         })
@@ -635,6 +639,7 @@ function aggregateStats() {
     topReactions,
     topWords,
     attachments: stats.attachments,
+    emojis: stats.emojis,
     ffxiv: {
       topJobs,
       topRaids,
