@@ -7,6 +7,7 @@ import SlideChannels from './components/SlideChannels'
 import SlideActivity from './components/SlideActivity'
 import SlideReactions from './components/SlideReactions'
 import SlideWords from './components/SlideWords'
+import SlideEmoji from './components/SlideEmoji'
 import SlideMedia from './components/SlideMedia'
 import SlideEngagement from './components/SlideEngagement'
 import SlideAchievements from './components/SlideAchievements'
@@ -42,6 +43,7 @@ function App() {
     SlideActivity,
     SlideReactions,
     SlideWords,
+    SlideEmoji,
     SlideMedia,
     SlideEngagement,
     SlideAchievements,
