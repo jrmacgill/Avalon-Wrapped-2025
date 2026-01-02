@@ -3,12 +3,13 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { config } from '../config.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-const dataDir = 'C:\\Users\\Evelyn\\Documents\\DED'
-const targetUser = 'Devious Altani'
+const dataDir = config.dataDir
+const targetUser = config.targetUser
 
 // Enhanced pun detection patterns (same as analyze-puns.js)
 const punConfig = {
@@ -209,6 +210,9 @@ function exportAllPuns() {
     totalMessages += messages.length
 
     messages.forEach(msg => {
+      const timestamp = new Date(msg.timestamp)
+      if (timestamp.getFullYear() !== config.year) return
+
       if (msg.isPun) {
         punMessages.push(msg)
       }
@@ -282,4 +286,3 @@ function exportAllPuns() {
 }
 
 exportAllPuns()
-

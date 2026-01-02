@@ -3,13 +3,14 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { config as appConfig } from '../config.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 // Parse command line arguments
 const args = process.argv.slice(2)
-const dataDir = 'C:\\Users\\Evelyn\\Documents\\DED'
+const dataDir = appConfig.dataDir
 
 function parseArgs() {
   const config = {
@@ -172,6 +173,9 @@ function searchInFile(filePath, config) {
     }
 
     for (const message of data.messages) {
+      const timestamp = new Date(message.timestamp)
+      if (timestamp.getFullYear() !== appConfig.year) continue
+
       if (matchesQuery(message, config)) {
         results.push({
           ...message,
@@ -218,7 +222,7 @@ async function main() {
 
   if (!fs.existsSync(dataDir)) {
     console.error(`Data directory not found: ${dataDir}`)
-    console.error('Please update the dataDir path in tools/search-json.js')
+    console.error('Please update the dataDir path in config.js')
     process.exit(1)
   }
 
@@ -265,5 +269,3 @@ async function main() {
 }
 
 main().catch(console.error)
-
-

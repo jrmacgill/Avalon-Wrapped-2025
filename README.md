@@ -17,6 +17,20 @@ An interactive "Spotify Wrapped"-style web experience showcasing Discord server 
 - **Node.js 18+ and npm** (see [SETUP.md](SETUP.md) for Windows installation instructions)
 - Discord JSON export files in `C:\Users\Evelyn\Documents\DED`
 
+### Configuration
+
+The project uses a central configuration file `config.js` in the root directory. You can customize the following settings:
+
+```javascript
+export const config = {
+  year: 2025,                 // The year to analyze
+  dataDir: 'G:\\Discord',     // Path to your Discord JSON export files
+  targetUser: 'Devious Altani' // User to analyze for puns
+}
+```
+
+**Note:** If you change the `year`, all scripts will automatically filter data for that specific year.
+
 ### Quick Start (Windows)
 
 **Option A: Using Batch Files (Easiest)**
@@ -108,6 +122,7 @@ See `tools/search-json.js` for all available options.
 │   ├── data/
 │   │   └── stats.json          # Generated statistics
 │   └── assets/                 # Custom graphics
+├── config.js                   # Central configuration file
 └── .github/workflows/
     └── deploy.yml              # GitHub Actions workflow
 ```
@@ -154,7 +169,7 @@ This project maintains **separate workflows** for local development and producti
 
 ### Local Development
 ```bash
-# 1. Generate fresh stats from raw Discord data
+# 1. Generate fresh stats from latest Discord data
 npm run process-data
 
 # 2. Start development server (uses latest local stats)
@@ -209,11 +224,10 @@ git push origin main
 
 ## Notes
 
-- The data processing script reads from `C:\Users\Evelyn\Documents\DED` - update the path in `scripts/process-data.js` if your data is elsewhere
+- The data processing script reads from the path configured in `config.js`
 - Large JSON files may take time to process
 - `stats.json` is gitignored by default - use `stats.production.json` for deployment
 
 ## License
 
 Private project for Dead on Arrival.
-

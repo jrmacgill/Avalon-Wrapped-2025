@@ -8,10 +8,12 @@ import { fileURLToPath } from 'url'
 import { tokenize } from 'chat-analytics/dist/pipeline/process/nlp/Tokenizer.js'
 import { normalizeText, matchFormat } from 'chat-analytics/dist/pipeline/process/nlp/Text.js'
 
+import { config } from '../config.js'
+
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-const dataDir = 'C:\\Users\\Evelyn\\Documents\\DED'
+const dataDir = config.dataDir
 const outputPath = path.join(__dirname, '..', 'public', 'data', 'stats.json')
 
 // Users to exclude from all statistics (e.g., kicked users)
@@ -129,7 +131,7 @@ function aggregateStats() {
 
   if (!fs.existsSync(dataDir)) {
     console.error(`Data directory not found: ${dataDir}`)
-    console.error('Please update the dataDir path in scripts/process-data.js')
+    console.error('Please update the dataDir path in config.js')
     process.exit(1)
   }
 
@@ -157,6 +159,10 @@ function aggregateStats() {
     }
 
     for (const message of fileData.messages) {
+      const timestamp = new Date(message.timestamp)
+      // Filter for configured year
+      if (timestamp.getFullYear() !== config.year) continue
+
       // Skip bot messages for some stats
       const isBot = message.author?.isBot || false
       
@@ -208,7 +214,6 @@ function aggregateStats() {
       }
 
       // Activity by hour/day
-      const timestamp = new Date(message.timestamp)
       if (stats._dateRangeDates.earliest === null || timestamp < stats._dateRangeDates.earliest) {
         stats._dateRangeDates.earliest = timestamp
         stats.dateRange.earliest = timestamp.toISOString()
@@ -717,5 +722,3 @@ function aggregateStats() {
 }
 
 aggregateStats()
-
-

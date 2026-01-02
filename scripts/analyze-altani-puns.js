@@ -3,11 +3,12 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { config } from '../config.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-const dataDir = 'C:\\Users\\Evelyn\\Documents\\DED'
+const dataDir = config.dataDir
 
 // Pun/joke detection patterns
 const punIndicators = {
@@ -134,6 +135,9 @@ function processFile(filePath) {
     const altaniMessages = []
 
     for (const message of data.messages) {
+      const timestamp = new Date(message.timestamp)
+      if (timestamp.getFullYear() !== config.year) continue
+
       const authorName = message.author?.name?.toLowerCase() || ''
       const authorNickname = message.author?.nickname?.toLowerCase() || ''
 
@@ -243,4 +247,3 @@ try {
 } catch (error) {
   console.error('Error:', error)
 }
-
