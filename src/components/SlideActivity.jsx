@@ -30,12 +30,13 @@ function SlideActivity({ stats }) {
         
         <div className="chart-container">
           <h3 style={{ marginBottom: '1.5rem', color: 'var(--guild-orange)' }}>Peak Hour: {hourLabels[peakHour]}</h3>
-          <div style={{ display: 'flex', alignItems: 'flex-end', gap: '4px', height: '200px' }}>
+          <div className="activity-chart" style={{ display: 'flex', alignItems: 'flex-end', gap: '4px', height: '200px' }}>
             {activityByHour.map((count, hour) => {
               const height = (count / maxHour) * 100
               return (
                 <div
                   key={hour}
+                  className="activity-bar"
                   style={{
                     flex: 1,
                     height: `${height}%`,
@@ -57,12 +58,13 @@ function SlideActivity({ stats }) {
           <h3 style={{ marginBottom: '1.5rem', color: 'var(--guild-orange)' }}>
             Peak Day: {dayNames[peakDay]}
           </h3>
-          <div style={{ display: 'flex', alignItems: 'flex-end', gap: '8px', height: '200px' }}>
+          <div className="activity-chart" style={{ display: 'flex', alignItems: 'flex-end', gap: '8px', height: '200px' }}>
             {activityByDay.map((count, day) => {
               const height = (count / maxDay) * 100
               return (
                 <div
                   key={day}
+                  className="activity-bar"
                   style={{
                     flex: 1,
                     height: `${height}%`,
@@ -92,12 +94,13 @@ function SlideActivity({ stats }) {
           <h3 style={{ marginBottom: '1.5rem', color: 'var(--guild-orange)' }}>
             Peak Month: {monthNames[peakMonth]}
           </h3>
-          <div style={{ display: 'flex', alignItems: 'flex-end', gap: '6px', height: '200px' }}>
+          <div className="activity-chart" style={{ display: 'flex', alignItems: 'flex-end', gap: '6px', height: '200px' }}>
             {activityByMonth.map((count, month) => {
               const height = (count / maxMonth) * 100
               return (
                 <div
                   key={month}
+                  className="activity-bar"
                   style={{
                     flex: 1,
                     height: `${height}%`,
