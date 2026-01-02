@@ -108,8 +108,8 @@ function aggregateStats() {
     emojis: {
       messageEmojis: {}, // Emojis used in message text (Unicode)
       reactionEmojis: {}, // Emojis used in reactions (Unicode)
-      messageCustomEmojis: {}, // Custom emojis in messages
-      reactionCustomEmojis: {}, // Custom emojis in reactions
+      messageCustomEmojis: {}, // Custom emojis in messages {emojiKey: {name, id, animated, count}}
+      reactionCustomEmojis: {}, // Custom emojis in reactions {emojiKey: {name, id, animated, count}}
     },
     ffxiv: {
       jobMentions: {},
@@ -305,11 +305,21 @@ function aggregateStats() {
         }
 
         // Custom emoji detection (Discord format: <:name:id>)
-        const customEmojiRegex = /<a?:\w+:\d+>/g
-        const customEmojisInMessage = messageContent.match(customEmojiRegex)
-        if (customEmojisInMessage) {
-          customEmojisInMessage.forEach(customEmoji => {
-            stats.emojis.messageCustomEmojis[customEmoji] = (stats.emojis.messageCustomEmojis[customEmoji] || 0) + 1
+        const customEmojiRegex = /<(a?):(\w+):(\d+)>/g
+        const customEmojisInMessage = [...messageContent.matchAll(customEmojiRegex)]
+        if (customEmojisInMessage.length > 0) {
+          customEmojisInMessage.forEach(match => {
+            const [, animated, name, id] = match
+            const emojiKey = `${name}:${id}`
+            if (!stats.emojis.messageCustomEmojis[emojiKey]) {
+              stats.emojis.messageCustomEmojis[emojiKey] = {
+                name,
+                id,
+                animated: animated === 'a',
+                count: 0
+              }
+            }
+            stats.emojis.messageCustomEmojis[emojiKey].count++
           })
         }
 
@@ -334,8 +344,16 @@ function aggregateStats() {
             // Check if it's a custom emoji (has an id)
             if (emoji.id) {
               // Custom emoji in reaction
-              const customEmoji = `<${emoji.animated ? 'a' : ''}:${emoji.name}:${emoji.id}>`
-              stats.emojis.reactionCustomEmojis[customEmoji] = (stats.emojis.reactionCustomEmojis[customEmoji] || 0) + (reaction.count || 0)
+              const emojiKey = `${emoji.name}:${emoji.id}`
+              if (!stats.emojis.reactionCustomEmojis[emojiKey]) {
+                stats.emojis.reactionCustomEmojis[emojiKey] = {
+                  name: emoji.name,
+                  id: emoji.id,
+                  animated: emoji.animated || false,
+                  count: 0
+                }
+              }
+              stats.emojis.reactionCustomEmojis[emojiKey].count += (reaction.count || 0)
             } else if (emoji.name) {
               // Unicode emoji
               const emojiRegex = /[\u{1F600}-\u{1F64F}]|[\u{1F300}-\u{1F5FF}]|[\u{1F680}-\u{1F6FF}]|[\u{1F1E0}-\u{1F1FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]/gu

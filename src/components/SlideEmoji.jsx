@@ -6,31 +6,67 @@ function SlideEmoji({ stats }) {
   const achievements = stats?.achievements || {}
   const topUsers = stats?.topUsers || []
 
+  // Helper function to render an emoji (custom or Unicode)
+  const renderEmoji = (emojiKey, size = '1.5rem') => {
+    // Check if it's a custom emoji (format: name:id)
+    if (typeof emojiKey === 'string' && emojiKey.includes(':')) {
+      const emojiData = emojis.messageCustomEmojis?.[emojiKey] || emojis.reactionCustomEmojis?.[emojiKey]
+      if (emojiData) {
+        const extension = emojiData.animated ? 'gif' : 'png'
+        const imageUrl = `https://cdn.discordapp.com/emojis/${emojiData.id}.${extension}`
+        return (
+          <img
+            src={imageUrl}
+            alt={emojiData.name}
+            style={{
+              width: size,
+              height: size,
+              objectFit: 'contain',
+              verticalAlign: 'middle'
+            }}
+            onError={(e) => {
+              // Fallback to text if image fails to load
+              e.target.style.display = 'none'
+              e.target.nextSibling.style.display = 'inline'
+            }}
+          />
+        )
+      }
+    }
+
+    // Unicode emoji - just display as text
+    return <span style={{ fontSize: size, lineHeight: 1 }}>{emojiKey}</span>
+  }
+
+  // Convert custom emojis to count format for ranking
+  const messageCustomEmojisCount = Object.entries(emojis.messageCustomEmojis || {}).map(([key, data]) => [key, data.count])
+  const reactionCustomEmojisCount = Object.entries(emojis.reactionCustomEmojis || {}).map(([key, data]) => [key, data.count])
+
   // Get top message emojis (combine Unicode and custom)
-  const allMessageEmojis = { ...emojis.messageEmojis, ...emojis.messageCustomEmojis }
-  const topMessageEmojis = Object.entries(allMessageEmojis)
+  const allMessageEmojis = [...Object.entries(emojis.messageEmojis || {}), ...messageCustomEmojisCount]
+  const topMessageEmojis = allMessageEmojis
     .sort(([,a], [,b]) => b - a)
     .slice(0, 10)
 
   // Get top reaction emojis (combine Unicode and custom)
-  const allReactionEmojis = { ...emojis.reactionEmojis, ...emojis.reactionCustomEmojis }
-  const topReactionEmojis = Object.entries(allReactionEmojis)
+  const allReactionEmojis = [...Object.entries(emojis.reactionEmojis || {}), ...reactionCustomEmojisCount]
+  const topReactionEmojis = allReactionEmojis
     .sort(([,a], [,b]) => b - a)
     .slice(0, 10)
 
   // Get top custom emojis (combined from messages and reactions)
-  const allCustomEmojis = { ...emojis.messageCustomEmojis, ...emojis.reactionCustomEmojis }
-  const topCustomEmojis = Object.entries(allCustomEmojis)
+  const allCustomEmojis = [...messageCustomEmojisCount, ...reactionCustomEmojisCount]
+  const topCustomEmojis = allCustomEmojis
     .sort(([,a], [,b]) => b - a)
     .slice(0, 10)
 
   // Calculate emoji statistics
   const totalMessageEmojis = Object.values(emojis.messageEmojis || {}).reduce((sum, count) => sum + count, 0) +
-                            Object.values(emojis.messageCustomEmojis || {}).reduce((sum, count) => sum + count, 0)
+                            Object.values(emojis.messageCustomEmojis || {}).reduce((sum, emoji) => sum + emoji.count, 0)
   const totalReactionEmojis = Object.values(emojis.reactionEmojis || {}).reduce((sum, count) => sum + count, 0) +
-                             Object.values(emojis.reactionCustomEmojis || {}).reduce((sum, count) => sum + count, 0)
-  const totalCustomEmojis = Object.values(emojis.messageCustomEmojis || {}).reduce((sum, count) => sum + count, 0) +
-                           Object.values(emojis.reactionCustomEmojis || {}).reduce((sum, count) => sum + count, 0)
+                             Object.values(emojis.reactionCustomEmojis || {}).reduce((sum, emoji) => sum + emoji.count, 0)
+  const totalCustomEmojis = Object.values(emojis.messageCustomEmojis || {}).reduce((sum, emoji) => sum + emoji.count, 0) +
+                           Object.values(emojis.reactionCustomEmojis || {}).reduce((sum, emoji) => sum + emoji.count, 0)
   const uniqueMessageEmojis = Object.keys(emojis.messageEmojis || {}).length + Object.keys(emojis.messageCustomEmojis || {}).length
   const uniqueReactionEmojis = Object.keys(emojis.reactionEmojis || {}).length + Object.keys(emojis.reactionCustomEmojis || {}).length
   const uniqueCustomEmojis = Object.keys(emojis.messageCustomEmojis || {}).length + Object.keys(emojis.reactionCustomEmojis || {}).length
@@ -77,11 +113,16 @@ function SlideEmoji({ stats }) {
                   border: '1px solid rgba(75, 85, 99, 0.3)'
                 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                    <span style={{
-                      fontSize: '1.5rem',
-                      minWidth: '2rem',
-                      textAlign: 'center'
-                    }}>{emoji}</span>
+                    <div style={{
+                      width: '2rem',
+                      height: '2rem',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      minWidth: '2rem'
+                    }}>
+                      {renderEmoji(emoji, '1.5rem')}
+                    </div>
                     <span style={{ fontSize: '1.1rem', fontWeight: 'bold', color: 'var(--guild-text)' }}>
                       #{index + 1}
                     </span>
@@ -116,11 +157,16 @@ function SlideEmoji({ stats }) {
                   border: '1px solid rgba(75, 85, 99, 0.3)'
                 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                    <span style={{
-                      fontSize: '1.5rem',
-                      minWidth: '2rem',
-                      textAlign: 'center'
-                    }}>{emoji}</span>
+                    <div style={{
+                      width: '2rem',
+                      height: '2rem',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      minWidth: '2rem'
+                    }}>
+                      {renderEmoji(emoji, '1.5rem')}
+                    </div>
                     <span style={{ fontSize: '1.1rem', fontWeight: 'bold', color: 'var(--guild-text)' }}>
                       #{index + 1}
                     </span>
@@ -155,11 +201,16 @@ function SlideEmoji({ stats }) {
                   border: '1px solid rgba(75, 85, 99, 0.3)'
                 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                    <span style={{
-                      fontSize: '1.5rem',
-                      minWidth: '2rem',
-                      textAlign: 'center'
-                    }}>{emoji}</span>
+                    <div style={{
+                      width: '2rem',
+                      height: '2rem',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      minWidth: '2rem'
+                    }}>
+                      {renderEmoji(emoji, '1.5rem')}
+                    </div>
                     <span style={{ fontSize: '1.1rem', fontWeight: 'bold', color: 'var(--guild-text)' }}>
                       #{index + 1}
                     </span>
