@@ -160,7 +160,28 @@ function SlideOutro({ stats }) {
                     color: 'var(--guild-text-dim)',
                     lineHeight: '1.6'
                   }}>
-                    Placeholder.
+                    <p>This DED Wrapped 2025 presentation was built using modern web technologies and custom data analysis tools.</p>
+
+                    <p style={{ marginTop: '1rem', fontWeight: 'bold' }}>Data Collection:</p>
+                    <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+                      <li>Discord data was scraped from the DED server by our custom Discord bot <strong>Zi&apos;s Mammet</strong></li>
+                      <li>Covered the full year: <strong>January 1, 2025 to December 31, 2025</strong></li>
+                      <li>Includes all messages, reactions, and user interactions across all channels</li>
+                    </ul>
+
+                    <p style={{ marginTop: '1rem', fontWeight: 'bold' }}>Libraries & Tools Used:</p>
+                    <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+                      <li><strong>React</strong> - Interactive user interface framework</li>
+                      <li><strong>D3.js</strong> - Data visualization and charting</li>
+                      <li><strong>Chat-analytics</strong> - Discord message analysis library</li>
+                      <li><strong>Vite</strong> - Fast build tool and development server</li>
+                      <li><strong>Node.js</strong> - JavaScript runtime environment</li>
+                      <li><strong>Discord.js</strong> - Bot framework for data collection</li>
+                    </ul>
+
+                    <p style={{ marginTop: '1rem' }}>
+                      The entire process runs locally on your machine for maximum privacy and security. All data processing, analysis, and visualization happens client-side with no external data transmission.
+                    </p>
                   </div>
                 )}
               </div>
