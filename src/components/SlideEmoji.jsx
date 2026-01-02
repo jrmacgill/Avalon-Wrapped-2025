@@ -110,7 +110,7 @@ function SlideEmoji({ stats }) {
         {/* Emoji Rankings Grid */}
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+          gridTemplateColumns: '1fr 1fr 1fr',
           gap: '1.5rem',
           marginTop: '2rem'
         }}>
