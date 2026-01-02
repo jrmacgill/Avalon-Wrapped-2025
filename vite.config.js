@@ -8,6 +8,10 @@ export default defineConfig(({ command }) => ({
   base: command === 'build' ? '/DED-Wrapped-2025/' : '/',
   build: {
     outDir: 'dist',
+  },
+  server: {
+    host: true, // Listen on all addresses, including LAN and localhost
+    port: 5173, // Default port, but explicit is good
+    strictPort: false, // If 5173 is busy, try the next one
   }
 }))
-
