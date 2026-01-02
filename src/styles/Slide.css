@@ -11,6 +11,19 @@
   overflow: hidden;
 }
 
+/* Mobile responsive padding */
+@media (max-width: 768px) {
+  .slide {
+    padding: 20px 20px 120px 20px; /* Reduced padding for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .slide {
+    padding: 15px 15px 100px 15px; /* Even tighter padding for small screens */
+  }
+}
+
 .slide::before {
   content: '';
   position: absolute;
@@ -673,6 +686,35 @@
     max-height: 80vh;
   }
 
+  /* Better mobile grid layouts */
+  .stat-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .stat-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .reactions-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .reaction-card {
+    padding: 0.75rem;
+  }
+}
+
   .enlarged-image-close {
     top: -35px;
     width: 28px;
@@ -727,6 +769,69 @@
 
   .stat-grid {
     grid-template-columns: 1fr;
+  }
+
+  /* Better mobile typography */
+  .slide-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .stat-card-title {
+    font-size: 1.1rem;
+  }
+
+  .stat-card-value {
+    font-size: 2rem;
+  }
+
+  .achievement-title {
+    font-size: 1.2rem;
+  }
+
+  .achievement-description {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small screens - better typography scaling */
+@media (max-width: 480px) {
+  .slide-title {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+
+  .slide-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .big-number {
+    font-size: 4rem;
+  }
+
+  .stat-card-title {
+    font-size: 1rem;
+  }
+
+  .stat-card-value {
+    font-size: 1.8rem;
+  }
+
+  .achievement-title {
+    font-size: 1.1rem;
+  }
+
+  .achievement-description {
+    font-size: 0.85rem;
+  }
+
+  .milestone-title {
+    font-size: 1.1rem;
+  }
+
+  .milestone-description {
+    font-size: 0.9rem;
   }
 }
 
@@ -948,6 +1053,28 @@
   margin-top: 3rem;
 }
 
+/* Better mobile reactions grid */
+@media (max-width: 1024px) {
+  .reactions-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .reactions-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .reactions-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
 .reaction-card {
   background: var(--guild-bg-card);
   border: 2px solid rgba(75, 85, 99, 0.4);
@@ -974,6 +1101,19 @@
   height: 280px;
   border-radius: 8px;
   overflow: hidden;
+}
+
+/* Mobile image optimizations */
+@media (max-width: 768px) {
+  .reaction-screenshot {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .reaction-screenshot {
+    height: 200px;
+  }
 }
 
 .reaction-screenshot img {

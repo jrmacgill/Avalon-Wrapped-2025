@@ -16,6 +16,12 @@ const outputPath = path.join(__dirname, '..', 'public', 'data', 'stats.json')
 
 // Users to exclude from all statistics (e.g., kicked users)
 const BLACKLISTED_USERS = [
+'352602166780755969',
+'59319392646729728',
+'408435025206312961',
+'1375840910515900448',
+'707673326473970305',
+'131194008696389632'
   // Add user IDs here, e.g.:
   // '123456789012345678',
   // '987654321098765432'

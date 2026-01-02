@@ -64,6 +64,33 @@ function App() {
     }
   }
 
+  // Touch/swipe handling for mobile
+  const [touchStart, setTouchStart] = useState(null)
+  const [touchEnd, setTouchEnd] = useState(null)
+
+  const minSwipeDistance = 50
+
+  const onTouchStart = (e) => {
+    setTouchEnd(null)
+    setTouchStart(e.targetTouches[0].clientX)
+  }
+
+  const onTouchMove = (e) => setTouchEnd(e.targetTouches[0].clientX)
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return
+    const distance = touchStart - touchEnd
+    const isLeftSwipe = distance > minSwipeDistance
+    const isRightSwipe = distance < -minSwipeDistance
+
+    if (isLeftSwipe && currentSlide < slides.length - 1) {
+      handleNext()
+    }
+    if (isRightSwipe && currentSlide > 0) {
+      handlePrev()
+    }
+  }
+
   useEffect(() => {
     const handleKeyPress = (e) => {
       if (e.key === 'ArrowRight' || e.key === ' ') {
@@ -102,7 +129,12 @@ function App() {
   const CurrentSlideComponent = slides[currentSlide]
 
   return (
-    <div className="app">
+    <div
+      className="app"
+      onTouchStart={onTouchStart}
+      onTouchMove={onTouchMove}
+      onTouchEnd={onTouchEnd}
+    >
       <CurrentSlideComponent stats={stats} />
       <div className="slide-controls">
         <button 
