@@ -42,12 +42,12 @@ function SlideTimeline({ stats }) {
     {
       period: "Volume Surge",
       milestone: `First ${monthlyThreshold.toLocaleString()}+ Messages/Month`,
-      description: `Activity exploded in ${fullMonthNames[accelerationMonth]}`,
-      value: `${activityByMonth[accelerationMonth].toLocaleString()} messages`,
+      description: accelerationMonth >= 0 ? `Activity exploded in ${fullMonthNames[accelerationMonth]}` : 'Consistent activity throughout the year',
+      value: accelerationMonth >= 0 ? `${activityByMonth[accelerationMonth].toLocaleString()} messages` : 'Steady growth',
       icon: "🚀",
       phase: "acceleration",
       color: "var(--guild-blue)",
-      graphMonth: accelerationMonth,
+      graphMonth: accelerationMonth >= 0 ? accelerationMonth : 0,
       graphIcon: "🚀"
     },
     {
@@ -187,7 +187,7 @@ function SlideTimeline({ stats }) {
             <div className="insight-icon">📚</div>
             <div className="insight-content">
               <div className="insight-title">Knowledge Hub</div>
-              <div className="insight-value">{Math.round((avgQuestionsPerUser / avgRepliesPerUser) * 100)}%</div>
+              <div className="insight-value">{avgRepliesPerUser > 0 ? Math.round((avgQuestionsPerUser / avgRepliesPerUser) * 100) : 0}%</div>
               <div className="insight-desc">Questions vs replies ratio</div>
             </div>
         </div>
@@ -216,4 +216,3 @@ function SlideTimeline({ stats }) {
 }
 
 export default SlideTimeline
-
