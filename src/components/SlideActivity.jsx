@@ -30,7 +30,13 @@ function SlideActivity({ stats }) {
         
         <div className="chart-container">
           <h3 style={{ marginBottom: '1.5rem', color: 'var(--guild-orange)' }}>Peak Hour: {hourLabels[peakHour]}</h3>
-          <div className="activity-chart" style={{ display: 'flex', alignItems: 'flex-end', gap: '4px', height: '200px' }}>
+          <div
+            className="activity-chart"
+            style={{ display: 'flex', alignItems: 'flex-end', gap: '4px', height: '200px' }}
+            onTouchStart={(e) => e.stopPropagation()}
+            onTouchMove={(e) => e.stopPropagation()}
+            onTouchEnd={(e) => e.stopPropagation()}
+          >
             {activityByHour.map((count, hour) => {
               const height = (count / maxHour) * 100
               return (
@@ -45,10 +51,19 @@ function SlideActivity({ stats }) {
                       : 'var(--gradient-grey)',
                     borderRadius: '4px 4px 0 0',
                     minHeight: '4px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'flex-end',
+                    padding: '4px',
+                    alignItems: 'center',
                     transition: 'all 0.3s ease',
                   }}
                   title={`${hourLabels[hour]}: ${count.toLocaleString()} messages`}
-                />
+                >
+                  <div style={{ fontSize: '0.6rem', color: 'var(--guild-text)', marginBottom: '2px' }}>
+                    {hourLabels[hour]}
+                  </div>
+                </div>
               )
             })}
           </div>
@@ -58,7 +73,13 @@ function SlideActivity({ stats }) {
           <h3 style={{ marginBottom: '1.5rem', color: 'var(--guild-orange)' }}>
             Peak Day: {dayNames[peakDay]}
           </h3>
-          <div className="activity-chart" style={{ display: 'flex', alignItems: 'flex-end', gap: '8px', height: '200px' }}>
+          <div
+            className="activity-chart"
+            style={{ display: 'flex', alignItems: 'flex-end', gap: '8px', height: '200px' }}
+            onTouchStart={(e) => e.stopPropagation()}
+            onTouchMove={(e) => e.stopPropagation()}
+            onTouchEnd={(e) => e.stopPropagation()}
+          >
             {activityByDay.map((count, day) => {
               const height = (count / maxDay) * 100
               return (
@@ -94,7 +115,13 @@ function SlideActivity({ stats }) {
           <h3 style={{ marginBottom: '1.5rem', color: 'var(--guild-orange)' }}>
             Peak Month: {monthNames[peakMonth]}
           </h3>
-          <div className="activity-chart" style={{ display: 'flex', alignItems: 'flex-end', gap: '6px', height: '200px' }}>
+          <div
+            className="activity-chart"
+            style={{ display: 'flex', alignItems: 'flex-end', gap: '6px', height: '200px' }}
+            onTouchStart={(e) => e.stopPropagation()}
+            onTouchMove={(e) => e.stopPropagation()}
+            onTouchEnd={(e) => e.stopPropagation()}
+          >
             {activityByMonth.map((count, month) => {
               const height = (count / maxMonth) * 100
               return (

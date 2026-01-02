@@ -102,7 +102,12 @@ function SlideTimeline({ stats }) {
           }}>
             Message Accumulation Through 2025
           </h3>
-          <div className="growth-chart-container">
+          <div
+            className="growth-chart-container"
+            onTouchStart={(e) => e.stopPropagation()}
+            onTouchMove={(e) => e.stopPropagation()}
+            onTouchEnd={(e) => e.stopPropagation()}
+          >
             {cumulativeMessages.map((count, month) => {
               const maxCumulative = Math.max(...cumulativeMessages)
               const heightPercent = count > 0 ? (count / maxCumulative) * 100 : 0
