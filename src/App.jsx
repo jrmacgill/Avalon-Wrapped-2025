@@ -114,7 +114,7 @@ function App() {
     return (
       <div className="loading-screen">
         <div className="loading-spinner"></div>
-        <p>Loading your DED 2025 Wrapped...</p>
+        <p>Loading your Avalon 1125 Wrapped...</p>
       </div>
     )
   }

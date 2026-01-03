@@ -29,11 +29,587 @@ const BLACKLISTED_USERS = [
   // '987654321098765432'
 ]
 
-// FFXIV-related keywords for custom stats
-const FFXIV_KEYWORDS = {
-  jobs: ['warrior', 'paladin', 'dark knight', 'gunbreaker', 'white mage', 'scholar', 'astrologian', 'sage', 'monk', 'dragoon', 'ninja', 'samurai', 'reaper', 'bard', 'machinist', 'dancer', 'black mage', 'summoner', 'red mage', 'blue mage'],
-  raids: ['savage', 'ultimate', 'extreme', 'unreal', 'alliance', 'trial', 'dungeon'],
-  content: ['raid', 'clear', 'parse', 'log', 'static', 'pf', 'party finder', 'fc', 'free company', 'housing', 'glamour', 'glam', 'mount', 'minion', 'minions', 'phys', 'ranged', 'physical ranged', 'phys ranged'],
+// LARP-related keywords for custom stats
+// Structure: { 'Display Name': ['search term 1', 'search term 2'] }
+const LARP_KEYWORDS = {
+    "roles": {
+        "Warrior": [
+            "warrior",
+            "fighter",
+            "mercenary",
+            "soldier",
+            "man-at-arms",
+            "adventurer",
+            "bodyguard",
+            "thug"
+        ],
+        "Mage": [
+            "mage",
+            "wizard",
+            "spellcaster",
+            "hedge wizard",
+            "combat mage",
+            "student of magic"
+        ],
+        "Rogue": [
+            "rogue",
+            "thief",
+            "scout",
+            "burglar",
+            "cutpurse",
+            "footpad",
+            "highwayman",
+            "spy",
+            "sneak",
+            "lookout",
+            "treasure hunter"
+        ],
+        "Cleric": [
+            "cleric",
+            "priest",
+            "healer",
+            "follower of the light",
+            "blessed follower"
+        ],
+        "Paladin": [
+            "paladin",
+            "holy warrior",
+            "champion of light",
+            "blessed follower",
+            "conall cearnarch"
+        ],
+        "White Sorcerer": [
+            "white sorcerer",
+            "blessed follower"
+        ],
+        "Druid": [
+            "druid",
+            "initiate of the mother",
+            "high druid",
+            "druid protector"
+        ],
+        "Dark Cleric": [
+            "dark cleric",
+            "servant of darkness"
+        ],
+        "Dark Paladin": [
+            "dark paladin",
+            "servant of darkness",
+            "champion of evil",
+            "sluagh"
+        ],
+        "Dark Sorcerer": [
+            "dark sorcerer",
+            "servant of darkness"
+        ],
+        "Warlock": [
+            "warlock",
+            "battle mage"
+        ],
+        "Sorcerer": [
+            "sorcerer",
+            "ritualist",
+            "high mage",
+            "gray sorcerer"
+        ],
+        "Alchemist": [
+            "alchemist",
+            "potion maker"
+        ],
+        "Spell Singer": [
+            "spell singer",
+            "spellsinger",
+            "bard",
+            "shanahee",
+            "skald"
+        ],
+        "Ranger": [
+            "ranger",
+            "woodsman",
+            "darkwood ranger"
+        ],
+        "Assassin": [
+            "assassin",
+            "killer for hire"
+        ],
+        "Master Thief": [
+            "master thief"
+        ],
+        "Master Warrior": [
+            "master warrior"
+        ],
+        "Mystic Warrior": [
+            "mystic warrior",
+            "spellsword"
+        ],
+        "Warrior Monk": [
+            "warrior monk",
+            "monk",
+            "martial artist"
+        ],
+        "Arcane Grifter": [
+            "arcane grifter",
+            "magical rogue"
+        ],
+        "Demon Hunter": [
+            "demon hunter"
+        ],
+        "Necromancer": [
+            "necromancer",
+            "death mage",
+            "animator"
+        ],
+        "Demonologist": [
+            "demonologist",
+            "summoner"
+        ],
+        "Acolyte": [
+            "acolyte",
+            "accolyte"
+        ],
+        "Diviner": [
+            "diviner",
+            "seer",
+            "fortune teller",
+            "medium"
+        ],
+        "Prince": [
+            "prince",
+            "princess",
+            "royal highness"
+        ],
+        "Duke": [
+            "duke",
+            "duchess",
+            "your grace"
+        ],
+        "Count": [
+            "count",
+            "countess",
+            "earl"
+        ],
+        "Baron": [
+            "baron",
+            "baroness"
+        ],
+        "Viceroy": [
+            "viceroy"
+        ],
+        "Marquis": [
+            "marquis",
+            "marquee"
+        ],
+        "Lord": [
+            "lord",
+            "lady"
+        ],
+        "Knight": [
+            "knight",
+            "sir",
+            "dame"
+        ],
+        "Squire": [
+            "squire"
+        ],
+        "Seneschal": [
+            "seneschal"
+        ],
+        "Chancellor": [
+            "lord chancellor",
+            "lady chancellor"
+        ],
+        "Warlord": [
+            "warlord"
+        ],
+        "High Inquisitor": [
+            "high inquisitor",
+            "lord inquisitor"
+        ],
+        "Sheriff": [
+            "sheriff",
+            "high sheriff"
+        ],
+        "Magistrate": [
+            "magistrate"
+        ],
+        "Constable": [
+            "constable"
+        ],
+        "Mayor": [
+            "mayor"
+        ],
+        "Warden of the Land": [
+            "warden of the land",
+            "warden"
+        ],
+        "Ambassador": [
+            "ambassador",
+            "consul",
+            "leno"
+        ],
+        "Guild Master": [
+            "guild master",
+            "guildmistress",
+            "guildmaster"
+        ],
+        "Master": [
+            "master",
+            "mistress"
+        ],
+        "Journeyman": [
+            "journeyman"
+        ],
+        "Apprentice": [
+            "apprentice"
+        ],
+        "Smith": [
+            "weapon smith",
+            "armor smith",
+            "blacksmith",
+            "smith"
+        ],
+        "Healer": [
+            "healer"
+        ],
+        "Merchant": [
+            "merchant",
+            "trader",
+            "shop keep"
+        ],
+        "Scribe": [
+            "scribe",
+            "recordkeeper"
+        ],
+        "Teacher": [
+            "instructor",
+            "tutor",
+            "mentor"
+        ],
+        "Researcher": [
+            "researcher",
+            "scholar"
+        ],
+        "Artisan/Crafter": [
+            "artist",
+            "candle maker",
+            "carpenter",
+            "carpet maker",
+            "cobbler",
+            "cooper",
+            "gem cutter",
+            "glass blower",
+            "mason",
+            "potter",
+            "tailor",
+            "clothier",
+            "thatcher",
+            "tinker",
+            "parchmenter"
+        ],
+        "Laborer": [
+            "laborer",
+            "lumberjack",
+            "miner",
+            "teamster",
+            "servant"
+        ],
+        "Food/Service": [
+            "baker",
+            "bartender",
+            "brewer",
+            "cook",
+            "distiller",
+            "innkeep",
+            "miller",
+            "vintner"
+        ],
+        "Agriculture": [
+            "crop farmer",
+            "dairy farmer",
+            "pig farmer",
+            "farmer",
+            "herder",
+            "rancher",
+            "gardener"
+        ],
+        "Maritime": [
+            "sailor",
+            "shipwright",
+            "fisherman",
+            "captain",
+            "commodore",
+            "admiral"
+        ],
+        "Performer": [
+            "town crier",
+            "minstrel"
+        ],
+        "Dragon Knight": [
+            "dragon knight",
+            "dragon's champion"
+        ],
+        "Demon Knight": [
+            "demon knight",
+            "hierarch's champion"
+        ],
+        "Forestal": [
+            "forestal"
+        ],
+        "Guardian": [
+            "guardsman",
+            "guard",
+            "protectorate"
+        ],
+        "Animal Handler": [
+            "animal trainer",
+            "hunter",
+            "trapper",
+            "furrier"
+        ]
+    },
+    "factions": {
+        "The High Lord": [
+            "highlord",
+            "high lord",
+            "the light",
+            "followers of light",
+            "house of the sun"
+        ],
+        "The Dark Lord": [
+            "darklord",
+            "dark lord",
+            "the darkness",
+            "servants of darkness"
+        ],
+        "The Mother": [
+            "the mother",
+            "followers of the mother",
+            "druids",
+            "druids circle",
+            "warden of the land"
+        ],
+        "Avalon": [
+            "duchy of avalon",
+            "avalonian",
+            "the duchy",
+            "the host",
+            "avalonian host"
+        ],
+        "Nymidia": [
+            "nymidian empire",
+            "the empire",
+            "old nymidia"
+        ],
+        "Terris Republic": [
+            "terris",
+            "the republic",
+            "ix legion",
+            "9th legion"
+        ],
+        "Mistwood": [
+            "kingdom of the elves",
+            "the wood",
+            "mistwood elves",
+            "quentis"
+        ],
+        "Dark Elves": [
+            "drow",
+            "deepening realm",
+            "underdark",
+            "house szolarleth",
+            "house il durthar"
+        ],
+        "Council of Dragons": [
+            "the dragons",
+            "dragon council",
+            "seats of the dragons"
+        ],
+        "Council of Hierarchs": [
+            "the hierarchs",
+            "hierarch council",
+            "lords of hell",
+            "the nine"
+        ],
+        "Malificari": [
+            "maleficari",
+            "cult of the python",
+            "red daggers"
+        ],
+        "The Void": [
+            "lord of the deep",
+            "void creatures",
+            "hunters",
+            "interregnum ex mortalis"
+        ],
+        "Coventry": [
+            "free lands of coventry",
+            "the syndicate",
+            "coventry defense force",
+            "cdf",
+            "bag of rats"
+        ],
+        "The Fae": [
+            "fae courts",
+            "seelie",
+            "unselee",
+            "seasonal courts",
+            "court of winter",
+            "court of summer"
+        ],
+        "New Tiraine": [
+            "tiraine",
+            "new tiraine empire"
+        ],
+        "Saurians": [
+            "sunscale empire",
+            "commonwealth of nomana",
+            "white city",
+            "magada"
+        ],
+        "Halflings": [
+            "new gleneden",
+            "glenraven",
+            "gleneden"
+        ],
+        "Midlantian Guard": [
+            "midguard",
+            "winter guard"
+        ],
+        "Guild of Arcane Lore": [
+            "goal",
+            "mages guild",
+            "alchemist college"
+        ],
+        "Avalon Press": [
+            "the press",
+            "avalon press archives"
+        ],
+        "The Word": [
+            "coventry collective",
+            "the knowledge report"
+        ],
+        "Nine Hearts": [
+            "nine hearts confederation",
+            "nine hearts"
+        ],
+        "Knights of the Accuser": [
+            "accusers",
+            "d'amurgos knights"
+        ],
+        "Cult of the Cryptic Shade": [
+            "cryptic shade",
+            "azeroth's cult"
+        ],
+        "Almeida": [
+            "kingdom of almeida",
+            "the risen isle"
+        ],
+        "Barconia": [
+            "barconian"
+        ],
+        "Highlanders": [
+            "clans",
+            "shanahee"
+        ],
+        "Firbolg": [
+            "furbolg"
+        ],
+        "Vaerinfolk": [
+            "vaerinfólk",
+            "pale stalkers"
+        ],
+        "Kaletani": [
+            "kaletani tribes"
+        ],
+        "Malleus": [
+            "malleus",
+            "the justicar"
+        ],
+        "Nivane": [
+            "navaine",
+            "nevayne",
+            "the challenger"
+        ],
+        "Addic": [
+            "the beast slayer"
+        ],
+        "Herpata": [
+            "the provider",
+            "great queen of the saurians"
+        ],
+        "Lunk": [
+            "the seeker"
+        ],
+        "Zimiir": [
+            "zamiir",
+            "the new seeker"
+        ],
+        "Juliet": [
+            "the healer"
+        ],
+        "Evander": [
+            "the keeper of knowledge"
+        ],
+        "Drae": [
+            "draegosian",
+            "the defender"
+        ],
+        "Mardukes": [
+            "mardux",
+            "guardian of souls"
+        ],
+        "Zebulon": [
+            "lord of the undead",
+            "king of hell"
+        ],
+        "Pid": [
+            "palimander"
+        ],
+        "Balphagor": [
+            "lord of war"
+        ],
+        "Ophidia": [
+            "lady of lies",
+            "the python",
+            "orpheus diaz"
+        ],
+        "Baine": [
+            "hierarch of murder"
+        ],
+        "Bazmodeous": [
+            "lord of chaos",
+            "lord of fire"
+        ],
+        "Arachnia": [
+            "spider queen"
+        ],
+        "Teera'al": [
+            "tireall",
+            "mistress of excess"
+        ],
+        "Margos": [
+            "vampire hierarch",
+            "lord of vampires"
+        ],
+        "Etrigant": [
+            "the deceiver",
+            "hierarch of secrets"
+        ],
+        "The Handmaiden": [
+            "handmaiden",
+            "fae title"
+        ],
+        "One Blood": [
+            "one blood march",
+            "half elves"
+        ]
+    },
+  themes: {
+    'Death': ['dying', 'death', 'dead', 'die', 'killed', 'kill', 'grave'],
+    'Resurrection': ['resurrect', 'revive'],
+    'Fighting': ['fight', 'fought', 'war', 'battle'],
+    'Drinking': ['drunk', 'drink', 'hangover', 'pissed']
+  }
 }
 
 // Enhanced word extraction using Chat Analytics tokenization
@@ -113,10 +689,10 @@ function aggregateStats() {
       messageCustomEmojis: {}, // Custom emojis in messages {emojiKey: {name, id, animated, count}}
       reactionCustomEmojis: {}, // Custom emojis in reactions {emojiKey: {name, id, animated, count}}
     },
-    ffxiv: {
-      jobMentions: {},
-      raidMentions: {},
-      contentMentions: {},
+    larp: {
+      roleMentions: {},
+      factionMentions: {},
+      themeMentions: {},
     },
     topMessages: [],
   dateRange: {
@@ -203,7 +779,7 @@ function aggregateStats() {
             replyCount: 0,
             // Content analysis
             questionCount: 0,
-            ffxivContent: 0,
+            larpContent: 0,
             memeChannelMessages: 0,
             // Message style
             totalMessageLength: 0,
@@ -259,20 +835,26 @@ function aggregateStats() {
           stats.users[userId].questionCount++
         }
 
-        // FFXIV content detection
+        // LARP content detection
         const lowerContent = messageContent.toLowerCase()
-        let hasFfxivContent = false
-        FFXIV_KEYWORDS.jobs.forEach(job => {
-          if (lowerContent.includes(job)) hasFfxivContent = true
-        })
-        FFXIV_KEYWORDS.raids.forEach(raid => {
-          if (lowerContent.includes(raid)) hasFfxivContent = true
-        })
-        FFXIV_KEYWORDS.content.forEach(content => {
-          if (lowerContent.includes(content)) hasFfxivContent = true
-        })
-        if (hasFfxivContent) {
-          stats.users[userId].ffxivContent++
+        let hasLarpContent = false
+        
+        // Check all LARP categories
+        const checkKeywords = (categoryObj) => {
+           for (const synonyms of Object.values(categoryObj)) {
+             if (synonyms.some(term => lowerContent.includes(term))) return true
+           }
+           return false
+        }
+
+        if (checkKeywords(LARP_KEYWORDS.roles) || 
+            checkKeywords(LARP_KEYWORDS.factions) || 
+            checkKeywords(LARP_KEYWORDS.themes)) {
+          hasLarpContent = true
+        }
+
+        if (hasLarpContent) {
+          stats.users[userId].larpContent++
         }
 
         // Meme channel detection
@@ -438,30 +1020,30 @@ function aggregateStats() {
         })
       }
 
-      // FFXIV-specific stats
+      // LARP-specific stats
       if (message.content && !isBot) {
         const contentLower = message.content.toLowerCase()
         
-        // Job mentions
-        FFXIV_KEYWORDS.jobs.forEach(job => {
-          if (contentLower.includes(job)) {
-            stats.ffxiv.jobMentions[job] = (stats.ffxiv.jobMentions[job] || 0) + 1
+        // Role mentions
+        for (const [role, synonyms] of Object.entries(LARP_KEYWORDS.roles)) {
+          if (synonyms.some(term => contentLower.includes(term))) {
+            stats.larp.roleMentions[role] = (stats.larp.roleMentions[role] || 0) + 1
           }
-        })
+        }
         
-        // Raid mentions
-        FFXIV_KEYWORDS.raids.forEach(raid => {
-          if (contentLower.includes(raid)) {
-            stats.ffxiv.raidMentions[raid] = (stats.ffxiv.raidMentions[raid] || 0) + 1
+        // Faction mentions
+        for (const [faction, synonyms] of Object.entries(LARP_KEYWORDS.factions)) {
+          if (synonyms.some(term => contentLower.includes(term))) {
+            stats.larp.factionMentions[faction] = (stats.larp.factionMentions[faction] || 0) + 1
           }
-        })
+        }
         
-        // Content mentions
-        FFXIV_KEYWORDS.content.forEach(content => {
-          if (contentLower.includes(content)) {
-            stats.ffxiv.contentMentions[content] = (stats.ffxiv.contentMentions[content] || 0) + 1
+        // Theme mentions
+        for (const [theme, synonyms] of Object.entries(LARP_KEYWORDS.themes)) {
+          if (synonyms.some(term => contentLower.includes(term))) {
+            stats.larp.themeMentions[theme] = (stats.larp.themeMentions[theme] || 0) + 1
           }
-        })
+        }
       }
     }
 
@@ -514,21 +1096,21 @@ function aggregateStats() {
     .slice(0, 50)
     .map(([word, count]) => ({ word, count }))
 
-  // Format FFXIV stats
-  const topJobs = Object.entries(stats.ffxiv.jobMentions)
+  // Format LARP stats
+  const topRoles = Object.entries(stats.larp.roleMentions)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 10)
-    .map(([job, count]) => ({ job, count }))
+    .map(([role, count]) => ({ role, count }))
 
-  const topRaids = Object.entries(stats.ffxiv.raidMentions)
+  const topFactions = Object.entries(stats.larp.factionMentions)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 10)
-    .map(([raid, count]) => ({ raid, count }))
+    .map(([faction, count]) => ({ faction, count }))
 
-  const topContent = Object.entries(stats.ffxiv.contentMentions)
+  const topThemes = Object.entries(stats.larp.themeMentions)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 10)
-    .map(([content, count]) => ({ content, count }))
+    .map(([theme, count]) => ({ theme, count }))
 
   // Convert Sets to arrays for JSON serialization
   Object.values(stats.users).forEach(user => {
@@ -557,7 +1139,7 @@ function aggregateStats() {
         if (a.uniqueMentionCount !== undefined) return b.uniqueMentionCount - a.uniqueMentionCount
         if (a.avgMessageLength !== undefined) return b.avgMessageLength - a.avgMessageLength
         // Default numeric sort for other metrics
-        const metricKeys = ['nightMessages', 'morningMessages', 'weekendMessages', 'replyCount', 'questionCount', 'ffxivContent', 'memeChannelMessages']
+        const metricKeys = ['nightMessages', 'morningMessages', 'weekendMessages', 'replyCount', 'questionCount', 'larpContent', 'memeChannelMessages']
         for (const key of metricKeys) {
           if (a[key] !== undefined) return b[key] - a[key]
         }
@@ -629,10 +1211,10 @@ function aggregateStats() {
     metric: 'questionCount'
   }
 
-  // FFXIV Sage: Most FFXIV-related content
-  achievements.ffxivSage = {
-    top5: getTop5(Object.values(stats.users), 5, 'ffxivContent'),
-    metric: 'ffxivContent'
+  // LARP Sage: Most LARP-related content
+  achievements.larpSage = {
+    top5: getTop5(Object.values(stats.users), 5, 'larpContent'),
+    metric: 'larpContent'
   }
 
   // Meme Lord: Most active in meme channels
@@ -695,11 +1277,10 @@ function aggregateStats() {
     topWords,
     attachments: stats.attachments,
     emojis: stats.emojis,
-    ffxiv: {
-      topJobs,
-      topRaids,
-      topContent,
-      contentMentions: stats.ffxiv.contentMentions,
+    larp: {
+      topRoles,
+      topFactions,
+      topThemes,
     },
   }
 

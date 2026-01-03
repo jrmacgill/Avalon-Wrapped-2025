@@ -76,7 +76,7 @@ function SlidePuns({ stats }) {
             color: 'var(--guild-text)',
             marginBottom: '0.25rem'
           }}>
-            Verified Puns in 2025
+            Verified Puns in 1125
           </div>
           <div style={{
             fontSize: '0.9rem',

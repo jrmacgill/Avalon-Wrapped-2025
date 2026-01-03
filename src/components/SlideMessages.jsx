@@ -134,7 +134,7 @@ function SlideMessages({ stats }) {
               {avgCount.toLocaleString()}
             </div>
             <p className="slide-subtitle" style={{ fontSize: '1.1rem' }}>
-              messages per day throughout 2025
+              messages per day throughout 1125
             </p>
           </div>
         )}

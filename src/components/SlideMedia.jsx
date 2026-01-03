@@ -26,7 +26,7 @@ function SlideMedia({ stats }) {
 
         {/* Big number display */}
         <div className="big-number">{attachments.total?.toLocaleString() || 0}</div>
-        <p className="slide-subtitle">pieces of media shared in 2025</p>
+        <p className="slide-subtitle">pieces of media shared in 1125</p>
 
         {/* Media type breakdown with progress bars */}
         <div className="media-breakdown">

@@ -52,7 +52,7 @@ function SlideTimeline({ stats }) {
     },
     {
       period: "Halfway Point",
-      milestone: "50% of 2025 Messages",
+      milestone: "50% of 1125 Messages",
       description: "Community reached the midpoint of the year's conversation",
       value: `${(totalMessages * 0.5).toLocaleString()} messages reached`,
       icon: "🎯",
@@ -90,7 +90,7 @@ function SlideTimeline({ stats }) {
       <FloatingGhosts count={Math.floor(Math.random() * 8) + 3} />
       <div className="slide-content">
         <h2 className="slide-title">Conversation Evolution</h2>
-        <p className="slide-subtitle">How our community conversations changed over 2025</p>
+        <p className="slide-subtitle">How our community conversations changed over 1125</p>
 
         {/* Cumulative Growth Chart */}
         <div className="timeline-growth-chart">
@@ -100,7 +100,7 @@ function SlideTimeline({ stats }) {
             marginBottom: '2rem',
             fontSize: '1.5rem'
           }}>
-            Message Accumulation Through 2025
+            Message Accumulation Through 1125
           </h3>
           <div
             className="growth-chart-container"
@@ -206,7 +206,7 @@ function SlideTimeline({ stats }) {
             <div className="insight-content">
               <div className="insight-title">Community Growth</div>
               <div className="insight-value">{totalUsers}</div>
-              <div className="insight-desc">Active contributors in 2025</div>
+              <div className="insight-desc">Active contributors in 1125</div>
             </div>
           </div>
         </div>

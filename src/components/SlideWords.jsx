@@ -13,7 +13,7 @@ function SlideWords({ stats }) {
       <FloatingGhosts count={Math.floor(Math.random() * 8) + 3} />
       <div className="slide-content">
         <h2 className="slide-title">Most Used Words</h2>
-        <p className="slide-subtitle">The words that defined 2025</p>
+        <p className="slide-subtitle">The words that defined 1125</p>
 
         {/* Top Words List */}
         <div className="top-words-list">

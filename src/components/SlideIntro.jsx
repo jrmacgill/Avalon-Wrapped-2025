@@ -28,10 +28,10 @@ function SlideIntro({ stats }) {
           textShadow: '0 0 20px rgba(220, 38, 38, 0.5)',
           marginBottom: '1rem'
         }}>
-          Your DED 2025 Wrapped
+          1125 Wrapped
         </h1>
         <p className="slide-subtitle" style={{ marginBottom: '2rem' }}>
-          A year in review for Dead on Arrival
+          A year in review for Avalon-deez nuts
         </p>
         <div style={{ textAlign: 'center' }}>
           <p style={{ fontSize: '1.2rem', color: 'var(--guild-text-dim)' }}>

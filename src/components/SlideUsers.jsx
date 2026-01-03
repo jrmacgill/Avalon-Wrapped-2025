@@ -21,7 +21,7 @@ function SlideUsers({ stats }) {
       <FloatingGhosts count={Math.floor(Math.random() * 8) + 3} />
       <div className="slide-content">
         <h2 className="slide-title">Most Active Members</h2>
-        <p className="slide-subtitle">Top contributors of 2025</p>
+        <p className="slide-subtitle">Top contributors of 1125</p>
         <div className="user-list">
           {topUsers.map((user, index) => (
             <div key={user.id} className="user-item" style={{ animationDelay: `${index * 0.1}s` }}>

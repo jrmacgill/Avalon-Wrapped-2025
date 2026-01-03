@@ -20,7 +20,7 @@ function SlideOutro({ stats }) {
     <div className="slide">
       <FloatingGhosts count={Math.floor(Math.random() * 8) + 3} />
       <div className="slide-content">
-        <h2 className="slide-title">Thanks for an amazing 2025!</h2>
+        <h2 className="slide-title">Thanks for an amazing 1125!</h2>
         <p className="slide-subtitle" style={{ fontSize: '1.8rem', marginTop: '2rem' }}>
           Here's to another year of adventures in Eorzea
         </p>
@@ -182,7 +182,7 @@ function SlideOutro({ stats }) {
                     color: 'var(--guild-text-dim)',
                     lineHeight: '1.6'
                   }}>
-                    <p>This DED Wrapped 2025 presentation was built using modern web technologies and custom data analysis tools.</p>
+                    <p>This Avalon Wrapped 1125 presentation was built using modern web technologies and custom data analysis tools.</p>
 
                     <p style={{ marginTop: '1rem', fontWeight: 'bold' }}>Data Collection:</p>
                     <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
