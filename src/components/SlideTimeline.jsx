@@ -206,7 +206,7 @@ function SlideTimeline({ stats }) {
             <div className="insight-content">
               <div className="insight-title">Community Growth</div>
               <div className="insight-value">{totalUsers}</div>
-              <div className="insight-desc">Active contributors in 1125</div>
+              <div className="insight-desc">Active contributors in 2025</div>
             </div>
           </div>
         </div>
