@@ -22,7 +22,7 @@ function SlideOutro({ stats }) {
       <div className="slide-content">
         <h2 className="slide-title">Thanks for an amazing 1125!</h2>
         <p className="slide-subtitle" style={{ fontSize: '1.8rem', marginTop: '2rem' }}>
-          Here's to another year of adventures in Eorzea
+          Here's to another year of adventures in Avalon
         </p>
 
         <div style={{ textAlign: 'center', marginTop: '3rem', marginBottom: '2rem' }}>
@@ -41,10 +41,10 @@ function SlideOutro({ stats }) {
 
         <div style={{ textAlign: 'center', marginTop: '2rem' }}>
           <p style={{ fontSize: '1.2rem', color: 'var(--ffxiv-text-dim)' }}>
-            Dead on Arrival
+            Avalon Deeze-Nuts
           </p>
           <p style={{ fontSize: '1rem', color: 'var(--ffxiv-text-dim)', marginTop: '1rem' }}>
-            2025
+            1125
           </p>
         </div>
 
@@ -114,7 +114,7 @@ function SlideOutro({ stats }) {
                 color: 'var(--guild-text)'
               }}>
                 <div>
-                  <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Data Scraping:</span> Zi's Mammet
+                  <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Data Scraping:</span> Gem
                 </div>
                 <div>
                   <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Analytics Library:</span> Chat-analytics
@@ -123,13 +123,14 @@ function SlideOutro({ stats }) {
                   <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Programmer & Creative Director:</span> Zi
                 </div>
                 <div>
-                  <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>DED Beta Testers:</span> Thorn, Val Reina, A Cade, Cleo "League Dealer" Linieh, AArekin AAlatus
+                    <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Additional Programming and Deez Nuts Port:</span> Gem
                 </div>
+
                 <div>
                   <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Presentation Magic:</span> React & D3
                 </div>
                 <div>
-                  <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Coding Fuel:</span> Cold Brew & FFXIV Music
+                  <span style={{ color: 'var(--guild-orange)', fontWeight: 'bold' }}>Coding Fuel:</span> Tea (The good stuff from Coventry Gold Quater)
                 </div>
               </div>
             </div>
@@ -186,7 +187,7 @@ function SlideOutro({ stats }) {
 
                     <p style={{ marginTop: '1rem', fontWeight: 'bold' }}>Data Collection:</p>
                     <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-                      <li>Discord data was scraped from the DED server by our custom Discord bot <strong>Zi&apos;s Mammet</strong></li>
+                      <li>Discord data was scraped from the Avalon Deeze Nuts server by our custom Discord bot <strong>Wrap Deez Nuts</strong></li>
                       <li>Covered the full year: <strong>January 1, 2025 to December 31, 2025</strong></li>
                       <li>Includes all messages, reactions, and user interactions across all channels</li>
                     </ul>

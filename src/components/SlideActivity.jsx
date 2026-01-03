@@ -26,7 +26,7 @@ function SlideActivity({ stats }) {
       <FloatingGhosts count={Math.floor(Math.random() * 8) + 3} />
       <div className="slide-content">
         <h2 className="slide-title">Activity Patterns</h2>
-        <p className="slide-subtitle">When DED was most active</p>
+        <p className="slide-subtitle">When was Avalon was most active</p>
         
         <div className="chart-container">
           <h3 style={{ marginBottom: '1.5rem', color: 'var(--guild-orange)' }}>Peak Hour: {hourLabels[peakHour]}</h3>

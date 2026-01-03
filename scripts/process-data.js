@@ -313,7 +313,7 @@ const LARP_KEYWORDS = {
             "teamster",
             "servant"
         ],
-        "Food/Service": [
+        "Bartender": [
             "baker",
             "bartender",
             "brewer",
@@ -484,9 +484,15 @@ const LARP_KEYWORDS = {
             "the press",
             "avalon press archives"
         ],
-        "The Word": [
+        "Coventry": [
+            "Coventry",
+            "The Word",
             "coventry collective",
             "the knowledge report"
+        ],
+        "Order of the Pyramid": [
+            "Pyramid",
+            "The Order"
         ],
         "Nine Hearts": [
             "nine hearts confederation",

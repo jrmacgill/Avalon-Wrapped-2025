@@ -15,7 +15,7 @@ function SlideFFXIV({ stats }) {
       <FloatingGhosts count={Math.floor(Math.random() * 8) + 3} />
       <div className="slide-content">
         <h2 className="slide-title">Deez Nuts Higlights</h2>
-        <p className="slide-subtitle">Who are we Worshipping</p>
+        <p className="slide-subtitle">What are we doing??</p>
         
         {!hasData && (
           <div style={{ marginTop: '4rem', textAlign: 'center', opacity: 0.8 }}>

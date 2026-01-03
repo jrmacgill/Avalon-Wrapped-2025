@@ -202,16 +202,6 @@ function SlideAchievements({ stats }) {
       })) || []
     },
     {
-      title: "🧙 FFXIV Sage",
-      description: "Most FFXIV content",
-      top5: statsAchievements?.ffxivSage?.top5?.map((user, index) => ({
-        rank: index + 1,
-        name: user?.nickname || user?.name || 'Unknown',
-        value: formatMetric(user, statsAchievements?.ffxivSage?.metric),
-        isWinner: index === 0
-      })) || []
-    },
-    {
       title: "🤡 Resident Clown",
       description: "Most active in memes",
       top5: statsAchievements?.memeLord?.top5?.map((user, index) => ({
