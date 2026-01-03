@@ -3,7 +3,7 @@ import FloatingGhosts from './FloatingGhosts'
 import { useState } from 'react'
 
 function SlideReactions({ stats }) {
-  const topReactions = stats?.topReactions?.slice(0, 10) || []
+  const topReactions = stats?.topReactions?.slice(0, 9) || []
   const [enlargedImage, setEnlargedImage] = useState(null)
 
 
@@ -92,5 +92,3 @@ function SlideReactions({ stats }) {
 }
 
 export default SlideReactions
-
-
