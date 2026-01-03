@@ -7,7 +7,7 @@ function SlidePuns({ stats }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}altani-puns-2025.json`)
+    fetch(`${import.meta.env.BASE_URL}server-puns-2025.json`)
       .then(response => response.json())
       .then(data => {
         setPunData(data)
@@ -33,7 +33,7 @@ function SlidePuns({ stats }) {
     return (
       <div className="slide">
         <div className="slide-content">
-          <h2 className="slide-title">Pun Champion: Devious Altani</h2>
+          <h2 className="slide-title">Pun Champions</h2>
           <p className="slide-subtitle">Pun analysis not available</p>
         </div>
       </div>
@@ -52,8 +52,8 @@ function SlidePuns({ stats }) {
     <div className="slide" style={{ paddingTop: '20px' }}>
       <FloatingGhosts count={Math.floor(Math.random() * 8) + 3} />
       <div className="slide-content" style={{ paddingBottom: '180px' }}>
-        <h2 className="slide-title" style={{ fontSize: '3rem', marginBottom: '1rem' }}>🎭 Pun Champion</h2>
-        <p className="slide-subtitle" style={{ fontSize: '1.2rem', marginBottom: '2rem' }}>Devious Altani's Masterful Wordplay</p>
+        <h2 className="slide-title" style={{ fontSize: '3rem', marginBottom: '1rem' }}>🎭 Pun Champions</h2>
+        <p className="slide-subtitle" style={{ fontSize: '1.2rem', marginBottom: '2rem' }}>The Server's Masterful Wordplay</p>
 
         <div style={{
           textAlign: 'center',
@@ -134,7 +134,7 @@ function SlidePuns({ stats }) {
                     fontSize: '0.8rem',
                     color: 'var(--guild-text-dim)'
                   }}>
-                    {pun.date} • #{pun.channel}
+                    {pun.author} • {pun.date} • #{pun.channel}
                   </div>
                 </div>
               </div>

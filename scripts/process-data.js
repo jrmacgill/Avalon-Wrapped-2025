@@ -700,15 +700,16 @@ function aggregateStats() {
       factionMentions: {},
       themeMentions: {},
     },
+    discordRoles: {}, // New: Track activity by Discord role
     topMessages: [],
-  dateRange: {
-    earliest: null,
-    latest: null,
-  },
-  _dateRangeDates: {
-    earliest: null,
-    latest: null,
-  },
+    dateRange: {
+      earliest: null,
+      latest: null,
+    },
+    _dateRangeDates: {
+      earliest: null,
+      latest: null,
+    },
   }
 
   if (!fs.existsSync(dataDir)) {
@@ -723,6 +724,8 @@ function aggregateStats() {
   console.log(`Found ${jsonFiles.length} JSON files to process\n`)
 
   let processedFiles = 0
+  let messagesWithRoles = 0
+
   for (const file of jsonFiles) {
     const filePath = path.join(dataDir, file)
     console.log(`Processing: ${file}...`)
@@ -793,6 +796,23 @@ function aggregateStats() {
           }
         }
         stats.users[userId].messageCount++
+
+        // Track Discord Roles Activity
+        if (message.author.roles && Array.isArray(message.author.roles)) {
+          messagesWithRoles++
+          message.author.roles.forEach(role => {
+            if (!stats.discordRoles[role.name]) {
+              stats.discordRoles[role.name] = {
+                name: role.name,
+                color: role.color,
+                count: 0,
+                activeUsers: new Set()
+              }
+            }
+            stats.discordRoles[role.name].count++
+            stats.discordRoles[role.name].activeUsers.add(userId)
+          })
+        }
       }
 
       // Activity by hour/day
@@ -1118,6 +1138,15 @@ function aggregateStats() {
     .slice(0, 10)
     .map(([theme, count]) => ({ theme, count }))
 
+  // Process Discord Roles
+  const topDiscordRoles = Object.values(stats.discordRoles)
+    .map(role => ({
+      ...role,
+      activeUsers: role.activeUsers.size // Convert Set to count
+    }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 100) // Increased to 100 to catch more roles
+
   // Convert Sets to arrays for JSON serialization
   Object.values(stats.users).forEach(user => {
     user.channelsActive = Array.from(user.channelsActive)
@@ -1288,6 +1317,7 @@ function aggregateStats() {
       topFactions,
       topThemes,
     },
+    discordRoles: topDiscordRoles, // Add top Discord roles to output
   }
 
   // Ensure output directory exists

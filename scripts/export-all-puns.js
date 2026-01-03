@@ -9,7 +9,8 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const dataDir = config.dataDir
-const targetUser = config.targetUser
+// We are now analyzing all users, so targetUser is not used for filtering
+// const targetUser = config.targetUser 
 
 // Enhanced pun detection patterns (same as analyze-puns.js)
 const punConfig = {
@@ -62,7 +63,8 @@ function analyzeMessageForPuns(message) {
       reactions: message.reactions?.reduce((sum, r) => sum + (r.count || 0), 0) || 0,
       timestamp: message.timestamp,
       channel: '',
-      id: message.id
+      id: message.id,
+      author: message.author?.nickname || message.author?.name || 'Unknown'
     }
   }
 
@@ -153,7 +155,8 @@ function analyzeMessageForPuns(message) {
     reactions: reactionCount,
     timestamp: message.timestamp,
     channel: '',
-    id: message.id
+    id: message.id,
+    author: message.author?.nickname || message.author?.name || 'Unknown'
   }
 }
 
@@ -166,14 +169,8 @@ function processFile(filePath) {
       return []
     }
 
-    const userMessages = data.messages.filter(msg =>
-      msg.author?.name === targetUser ||
-      msg.author?.id === targetUser ||
-      msg.author?.nickname === targetUser ||
-      (msg.author?.nickname && msg.author.nickname.toLowerCase().includes(targetUser.toLowerCase()))
-    )
-
-    return userMessages.map(msg => {
+    // No longer filtering by user
+    return data.messages.map(msg => {
       const analysis = analyzeMessageForPuns(msg)
       return {
         ...analysis,
@@ -187,7 +184,7 @@ function processFile(filePath) {
 }
 
 function exportAllPuns() {
-  console.log(`🔍 Exporting all puns by user: ${targetUser}`)
+  console.log(`🔍 Exporting all puns from server (2025)`)
   console.log('=' .repeat(50))
 
   if (!fs.existsSync(dataDir)) {
@@ -238,18 +235,18 @@ function exportAllPuns() {
   })
 
   console.log(`📊 EXPORT RESULTS`)
-  console.log(`Total messages from ${targetUser}: ${totalMessages}`)
-  console.log(`Total unique puns/bad jokes: ${punMessages.length}`)
-  console.log(`Pun percentage: ${totalMessages > 0 ? ((punMessages.length / totalMessages) * 100).toFixed(1) : 0}%`)
+  console.log(`Total messages scanned: ${totalMessages}`)
+  console.log(`Total unique puns/bad jokes found: ${punMessages.length}`)
+  console.log(`Pun percentage: ${totalMessages > 0 ? ((punMessages.length / totalMessages) * 100).toFixed(2) : 0}%`)
   console.log()
 
   // Export to JSON file
   const exportData = {
     summary: {
-      user: targetUser,
+      scope: 'Server-wide',
       totalMessages,
       totalPuns: punMessages.length,
-      punPercentage: totalMessages > 0 ? ((punMessages.length / totalMessages) * 100).toFixed(1) : 0,
+      punPercentage: totalMessages > 0 ? ((punMessages.length / totalMessages) * 100).toFixed(2) : 0,
       generatedAt: new Date().toISOString()
     },
     puns: punMessages.map((msg, index) => ({
@@ -257,17 +254,18 @@ function exportAllPuns() {
       date: new Date(msg.timestamp).toLocaleDateString(),
       channel: msg.channel,
       content: msg.content,
+      author: msg.author,
       score: msg.score,
       reactions: msg.reactions,
       indicators: msg.indicators
     }))
   }
 
-  const outputPath = path.join(__dirname, '..', 'altani-puns-2025.json')
+  const outputPath = path.join(__dirname, '..', 'server-puns-2025.json')
   fs.writeFileSync(outputPath, JSON.stringify(exportData, null, 2))
 
   // Also copy to public directory for web app
-  const publicPath = path.join(__dirname, '..', 'public', 'altani-puns-2025.json')
+  const publicPath = path.join(__dirname, '..', 'public', 'server-puns-2025.json')
   fs.writeFileSync(publicPath, JSON.stringify(exportData, null, 2))
 
   console.log(`✅ Exported all ${punMessages.length} puns to: ${outputPath}`)
@@ -278,7 +276,7 @@ function exportAllPuns() {
 
   punMessages.slice(0, 5).forEach((msg, index) => {
     const date = new Date(msg.timestamp).toLocaleDateString()
-    console.log(`${index + 1}. [${date}] #${msg.channel}`)
+    console.log(`${index + 1}. [${date}] ${msg.author} in #${msg.channel}`)
     console.log(`   "${msg.content}"`)
     console.log(`   Score: ${msg.score.toFixed(1)} | Reactions: ${msg.reactions}`)
     console.log()

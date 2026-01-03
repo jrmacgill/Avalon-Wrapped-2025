@@ -3,6 +3,7 @@ import './styles/App.css'
 import SlideIntro from './components/SlideIntro'
 import SlideMessages from './components/SlideMessages'
 import SlideUsers from './components/SlideUsers'
+import SlideRoles from './components/SlideRoles'
 import SlideChannels from './components/SlideChannels'
 import SlideActivity from './components/SlideActivity'
 import SlideReactions from './components/SlideReactions'
@@ -13,7 +14,6 @@ import SlideEngagement from './components/SlideEngagement'
 import SlideAchievements from './components/SlideAchievements'
 import SlideTimeline from './components/SlideTimeline'
 import SlideFunFacts from './components/SlideFunFacts'
-import SlidePuns from './components/SlidePuns'
 import SlideFFXIV from './components/SlideFFXIV'
 import SlideOutro from './components/SlideOutro'
 import { loadStats } from './utils/dataLoader'
@@ -39,6 +39,7 @@ function App() {
     SlideIntro,
     SlideMessages,
     SlideUsers,
+    SlideRoles,
     SlideChannels,
     SlideActivity,
     SlideReactions,
@@ -49,7 +50,6 @@ function App() {
     SlideAchievements,
     SlideTimeline,
     SlideFunFacts,
-    SlidePuns,
     SlideFFXIV,
     SlideOutro,
   ]
@@ -162,4 +162,3 @@ function App() {
 }
 
 export default App
-
