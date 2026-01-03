@@ -1142,9 +1142,10 @@ function aggregateStats() {
   const topDiscordRoles = Object.values(stats.discordRoles)
     .map(role => ({
       ...role,
-      activeUsers: role.activeUsers.size // Convert Set to count
+      activeUsers: role.activeUsers.size, // Convert Set to count
+      messagesPerUser: role.activeUsers.size > 0 ? Math.round(role.count / role.activeUsers.size) : 0
     }))
-    .sort((a, b) => b.count - a.count)
+    .sort((a, b) => b.messagesPerUser - a.messagesPerUser) // Sort by messages per user
     .slice(0, 100) // Increased to 100 to catch more roles
 
   // Convert Sets to arrays for JSON serialization
