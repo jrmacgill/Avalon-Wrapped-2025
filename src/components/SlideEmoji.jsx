@@ -86,7 +86,7 @@ function SlideEmoji({ stats }) {
       <FloatingGhosts count={Math.floor(Math.random() * 8) + 3} />
       <div className="slide-content">
         <h2 className="slide-title">Most Used Emoji</h2>
-        <p className="slide-subtitle">DED's emoji language decoded</p>
+        <p className="slide-subtitle">Deez Nuts emoji language decoded</p>
 
         {/* Emoji Statistics Overview */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', marginBottom: '2rem' }}>
